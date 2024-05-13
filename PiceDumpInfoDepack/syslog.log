@@ -1,0 +1,1363 @@
+ 
+root@localhost:/home/user# tail -f /var/log/syslog
+Aug  8 09:03:38 localhost dockerd[437]: time="2023-08-08T09:03:38.535198622Z" level=info msg="Docker daemon" commit=481bc77 graphdriver(s)=overlay2 version=0.0.0-20190504015804-481bc77156
+Aug  8 09:03:38 localhost dockerd[437]: time="2023-08-08T09:03:38.559775622Z" level=info msg="Daemon has completed initialization"
+Aug  8 09:03:38 localhost systemd[1]: Started Docker Application Container Engine.
+Aug  8 09:03:38 localhost systemd[1]: Reached target Multi-User System.
+Aug  8 09:03:38 localhost systemd[1]: Reached target Graphical Interface.
+Aug  8 09:03:38 localhost systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Aug  8 09:03:38 localhost dockerd[437]: time="2023-08-08T09:03:38.639177822Z" level=info msg="API listen on /run/docker.sock"
+Aug  8 09:03:38 localhost systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+Aug  8 09:03:38 localhost systemd[1]: Finished Update UTMP about System Runlevel Changes.
+Aug  8 09:03:38 localhost systemd[1]: Startup finished in 5.416s (kernel) + 31.395s (userspace) = 36.812s.
+Aug  8 09:04:29 localhost nrTestMAC[973]: EAL: Probing VFIO support...
+Aug  8 09:04:29 localhost nrTestMAC[973]: EAL: VFIO support initialized
+Aug  8 09:04:30 localhost nrTestMAC[973]: dpaa: FMAN ports not available
+Aug  8 09:04:30 localhost nrTestMAC[973]: dpaa: netcfg failed: /dev/fsl_usdpaa device not available
+Aug  8 09:04:30 localhost nrTestMAC[973]: dpaa: Check if you are using USDPAA based device tree
+Aug  8 09:04:30 localhost nrTestMAC[973]: EAL:   Invalid NUMA socket, default to 0
+Aug  8 09:04:30 localhost nrTestMAC[973]: EAL: Probe PCI driver: net_pc802 (1ec4:802) device: 0000:01:00.0 (socket 0)
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 0 RV MB Clear Up: core 0 init_idx 0 idx 0 flags: 0x0000000000000000 0x0000000000000000
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 ECPRI 0 RV MB Clear Up: core 16 init_idx 0 idx 0 flags: 0x0000000000000000 0x0000000000000000
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 1 RV MB Clear Up: core 1 init_idx 0 idx 0 flags: 0x0000000000000000 0x0000000000000000
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 ECPRI 1 RV MB Clear Up: core 17 init_idx 0 idx 0 flags: 0x0000000000000000 0x0000000000000000
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 2 RV MB Clear Up: core 2 init_idx 0 idx 0 flags: 0x0000000000000000 0x0000000000000000
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 ECPRI 2 RV MB Clear Up: core 18 init_idx 0 idx 0 flags: 0x0000000000000000 0x0000000000000000
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 3 RV MB Clear Up: core 3 init_idx 0 idx 0 flags: 0x0000000000000000 0x0000000000000000
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 ECPRI 3 RV MB Clear Up: core 19 init_idx 0 idx 0 flags: 0x0000000000000000 0x0000000000000000
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 4 RV MB Clear Up: core 4 init_idx 0 idx 0 flags: 0x0000000000000000 0x0000000000000000
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 ECPRI 4 RV MB Clear Up: core 20 init_idx 0 idx 0 flags: 0x0000000000000000 0x0000000000000000
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 5 RV MB Clear Up: core 5 init_idx 0 idx 0 flags: 0x0000000000000000 0x0000000000000000
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 ECPRI 5 RV MB Clear Up: core 21 init_idx 0 idx 0 flags: 0x0000000000000000 0x0000000000000000
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 6 RV MB Clear Up: core 6 init_idx 0 idx 0 flags: 0x0000000000000000 0x0000000000000000
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 ECPRI 6 RV MB Clear Up: core 22 init_idx 0 idx 0 flags: 0x0000000000000000 0x0000000000000000
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 7 RV MB Clear Up: core 7 init_idx 0 idx 0 flags: 0x0000000000000000 0x0000000000000000
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 ECPRI 7 RV MB Clear Up: core 23 init_idx 0 idx 0 flags: 0x0000000000000000 0x0000000000000000
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 8 RV MB Clear Up: core 8 init_idx 0 idx 0 flags: 0x0000000000000000 0x0000000000000000
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 ECPRI 8 RV MB Clear Up: core 24 init_idx 0 idx 0 flags: 0x0000000000000000 0x0000000000000000
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 9 RV MB Clear Up: core 9 init_idx 0 idx 0 flags: 0x0000000000000000 0x0000000000000000
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 ECPRI 9 RV MB Clear Up: core 25 init_idx 0 idx 0 flags: 0x0000000000000000 0x0000000000000000
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 10 RV MB Clear Up: core 10 init_idx 0 idx 0 flags: 0x0000000000000000 0x0000000000000000
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 ECPRI 10 RV MB Clear Up: core 26 init_idx 0 idx 0 flags: 0x0000000000000000 0x0000000000000000
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 11 RV MB Clear Up: core 11 init_idx 0 idx 0 flags: 0x0000000000000000 0x0000000000000000
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 ECPRI 11 RV MB Clear Up: core 27 init_idx 0 idx 0 flags: 0x0000000000000000 0x0000000000000000
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 12 RV MB Clear Up: core 12 init_idx 0 idx 0 flags: 0x0000000000000000 0x0000000000000000
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 ECPRI 12 RV MB Clear Up: core 28 init_idx 0 idx 0 flags: 0x0000000000000000 0x0000000000000000
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 13 RV MB Clear Up: core 13 init_idx 0 idx 0 flags: 0x0000000000000000 0x0000000000000000
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 ECPRI 13 RV MB Clear Up: core 29 init_idx 0 idx 0 flags: 0x0000000000000000 0x0000000000000000
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 14 RV MB Clear Up: core 14 init_idx 0 idx 0 flags: 0x0000000000000000 0x0000000000000000
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 ECPRI 14 RV MB Clear Up: core 30 init_idx 0 idx 0 flags: 0x0000000000000000 0x0000000000000000
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 15 RV MB Clear Up: core 15 init_idx 0 idx 0 flags: 0x0000000000000000 0x0000000000000000
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 ECPRI 15 RV MB Clear Up: core 31 init_idx 0 idx 0 flags: 0x0000000000000000 0x0000000000000000
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00000]: 0xA0B8C0D2(0x282E3, 0210)
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00001]: 0x00000060(0x00000, 0096)
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00002]: 0xF0E8D0C2(0x3C3A3, 4290)
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00003]: 0xA5B6C7D8(0x296DB, 2008)
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00004]: 0x1A2B3C4D(0x068AC, 15437)
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00005]: 0x00620001(0x00188, 0001)
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00006]: 0x00910001(0x00244, 0001)
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00007]: 0x009A0001(0x00268, 0001)
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00008]: 0x00C20001(0x00308, 0001)
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00009]: 0x1A2B3C4D(0x068AC, 15437)
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00010]: 0x00620003(0x00188, 0003)
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00011]: 0x00910003(0x00244, 0003)
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00012]: 0x009A0003(0x00268, 0003)
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00013]: 0x00C20003(0x00308, 0003)
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00014]: 0x1A2B3C4D(0x068AC, 15437)
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00015]: 0x00620005(0x00188, 0005)
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00016]: 0x00910005(0x00244, 0005)
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00017]: 0x009A0005(0x00268, 0005)
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00018]: 0x00C20005(0x00308, 0005)
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00019]: 0x7E8D9A6C(0x1FA36, 6764)
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00020]: 0x00D80003(0x00360, 0003)
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00021]: 0x00DC0005(0x00370, 0005)
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00022]: 0x00DE0006(0x00378, 0006)
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00023]: 0x00ED0014(0x003B4, 0020)
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00024]: 0x6C9A8D7E(0x1B26A, 3454)
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00025]: 0x5F4E3D2C(0x17D38, 15660)
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00026]: 0x01030003(0x0040C, 0003)
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00027]: 0x01070006(0x0041C, 0006)
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00028]: 0x01160014(0x00458, 0020)
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00029]: 0x2C3D4E5F(0x0B0F5, 3679)
+Aug  8 09:04:30 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00030]: 0xD8C7B6A5(0x3631E, 13989)
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00031]: 0x4B3C2D1E(0x12CF0, 11550)
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00032]: 0x0CC9B697(0x03326, 13975)
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00033]: 0x00000198(0x00000, 0408)
+Aug  8 09:04:33 localhost nrTestMAC[973]: EAL: No legacy callbacks, legacy socket not created
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00034]: 0x0000019C(0x00000, 0412)
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00035]: 0x1E2D3C4B(0x078B4, 15435)
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00036]: 0xC0FFEE96(0x303FF, 11926)
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00037]: 0x00000001(0x00000, 0001)
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00038]: 0x00000002(0x00000, 0002)
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00039]: 0xC0FFEE97(0x303FF, 11927)
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00040]: 0xC0FFEE98(0x303FF, 11928)
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: **************************************************************************************
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: *---------- Product:    Picocom PC802-NR-PHY
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: *---------- Version:    NR-Full-PHY-v3.1.0.3-rc1
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: *---------- Build Time: Date-Aug  8 2023, Time-16:49:33
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: *---------- Build SHA1: b5ddfbb4d1637b8fccb2e8d4101a20a580c92f95
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: **************************************************************************************
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: pc802 init clk ok!
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: pc802 connect clk ok!
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00041]: 0xC0FFEE99(0x303FF, 11929)
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00042]: 0x03065440(0x00C19, 5184)
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: == [ MAC_MSG_INFO] == [Normal Mode] The phy image is Running on Normal mode. {Aug  8 2023 - 16:49:33}
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_sync_downloader : 1670 : VEC Read use PCIe DL DMA Ch 3
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PCIe VEC Read: core  0 result = 1 file_id = 10 offset = 0 address = 0x06065440 length = 480
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: The version of this PHY configuration file 10.txt is 3100 !
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF:  === FapiMsgCheckEnable_DelaySlotNumInd_FapiMsgCheckInfo_FapiCheckReportFlag {0 - 0 - 0 - 0 - 0} ===
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF:  === DlPwrScaleDisable_{1}, gs_CellWorkMode_{0} ===
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF:  === EqTable_{0} ===
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF:  === LogMask_{0} ===
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF:  === JesdRate_{2} ===
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: spi1 cfg ad5641
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Seupt FIFO 0 err irq done!
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Seupt FIFO 1 err irq done!
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Seupt FIFO 2 err irq done!
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: JESD PHY init Start!
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00043]: 0xC0FFEE00(0x303FF, 11776)
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00044]: 0x00000000(0x00000, 0000)
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00045]: 0xC0FFEE01(0x303FF, 11777)
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00046]: 0x1A2B3C4D(0x068AC, 15437)
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00047]: 0x00620007(0x00188, 0007)
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00048]: 0x00910007(0x00244, 0007)
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: JESD PHY access end!
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: sync mode 3
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Warning: tod hscc dump hander NULL and ignore register
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: tod_irq_init : 171
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Warning: tod 1pps in hander NULL and ignore register
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: tod_irq_init : 184
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: tod_irq_init : 198
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00049]: 0x009A0007(0x00268, 0007)
+Aug  8 09:04:33 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00050]: 0x00C20007(0x00308, 0007)
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00051]: 0xC0FFEE02(0x303FF, 11778)
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: dac :0
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Starting XC12 core 0
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Starting XC12 core 1
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Starting XC12 core 2
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Starting PFI core 1
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Starting PFI core 2
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Starting PFI core 3
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Starting PFI core 4
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Starting PFI core 5
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Starting PFI core 6
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Starting PFI core 7
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Starting PFI core 8
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Starting PFI core 9
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Starting PFI core 10
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Starting PFI core 11
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Starting PFI core 12
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Starting PFI core 13
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Starting PFI core 14
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Starting PFI core 15
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Starting ECPRI core 0
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Starting ECPRI core 1
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Starting ECPRI core 2
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Starting ECPRI core 3
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Starting ECPRI core 4
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Starting ECPRI core 5
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Starting ECPRI core 6
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Starting ECPRI core 7
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Starting ECPRI core 8
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Starting ECPRI core 9
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Starting ECPRI core 10
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Starting ECPRI core 11
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Starting ECPRI core 12
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Starting ECPRI core 13
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Starting ECPRI core 14
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Starting ECPRI core 15
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Received boot signature from CPU 1
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Received boot signature from CPU 2
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Received boot signature from CPU 3
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Received boot signature from CPU 4
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Received boot signature from CPU 5
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Received boot signature from CPU 6
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Received boot signature from CPU 7
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Received boot signature from CPU 8
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Received boot signature from CPU 9
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Received boot signature from CPU 10
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Received boot signature from CPU 11
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Received boot signature from CPU 12
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Received boot signature from CPU 33
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Received boot signature from CPU 34
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Received boot signature from CPU 13
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Received boot signature from CPU 32
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Received boot signature from CPU 14
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Received boot signature from CPU 15
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Received boot signature from CPU 16
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Received boot signature from CPU 17
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Received boot signature from CPU 18
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Received boot signature from CPU 19
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Received boot signature from CPU 20
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Received boot signature from CPU 21
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Received boot signature from CPU 22
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Received boot signature from CPU 23
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Received boot signature from CPU 24
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Received boot signature from CPU 25
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Received boot signature from CPU 26
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Received boot signature from CPU 27
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Received boot signature from CPU 28
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Received boot signature from CPU 29
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Received boot signature from CPU 30
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Received boot signature from CPU 31
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: All cores have booted
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Andes 0 waits log server core being ready.
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Andes 0 receive core 13 handshake response.
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Log server is ready. #012
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Andes core 0 log buffer addr: 0x3200000.
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: Submitting boot signature to FIFO
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: Andes core 1 log buffer addr: 0x3201400.
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 2 PRINTF: Submitting boot signature to FIFO
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 2 PRINTF: Andes core 2 log buffer addr: 0x3206400.
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 3 PRINTF: Submitting boot signature to FIFO
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 3 PRINTF: Andes core 3 log buffer addr: 0x3207800.
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: Submitting boot signature to FIFO
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: Andes core 4 log buffer addr: 0x3208c00.
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 5 PRINTF: Submitting boot signature to FIFO
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 5 PRINTF: Andes core 5 log buffer addr: 0x320a000.
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 6 PRINTF: Submitting boot signature to FIFO
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 6 PRINTF: Andes core 6 log buffer addr: 0x320b400.
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 7 PRINTF: Submitting boot signature to FIFO
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 7 PRINTF: Andes core 7 log buffer addr: 0x320c800.
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 8 PRINTF: Submitting boot signature to FIFO
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 8 PRINTF: Andes core 8 log buffer addr: 0x320dc00.
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 8 PRINTF: Andes[8] send handshake response to Andes 0. startAddr: 0x1ff30024.
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 9 PRINTF: Submitting boot signature to FIFO
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 9 PRINTF: Andes core 9 log buffer addr: 0x320f000.
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 9 PRINTF: Andes[9] send handshake response to Andes 0. startAddr: 0x1ff30024.
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 10 PRINTF: Submitting boot signature to FIFO
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 10 PRINTF: Andes core 10 log buffer addr: 0x3210400.
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 10 PRINTF: Andes[10] send handshake response to Andes 0. startAddr: 0x1ff30024.
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: Submitting boot signature to FIFO
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: Andes core 11 log buffer addr: 0x3211800.
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: Andes[11] send handshake response to Andes 0. startAddr: 0x1ff30024.
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 12 PRINTF: Submitting boot signature to FIFO
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 12 PRINTF: Andes core 12 log buffer addr: 0x3212c00.
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 12 PRINTF: Andes[12] send handshake response to Andes 0. startAddr: 0x1ff30024.
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 13 PRINTF: Submitting boot signature to FIFO
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 13 PRINTF: Andes core 13 log buffer addr: 0x3214000.
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 13 PRINTF: Andes[13] send handshake response to Andes 0. startAddr: 0x1ff30024.
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 13 PRINTF: Log agent work in PCIE mode.
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: Submitting boot signature to FIFO
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 15 PRINTF: Submitting boot signature to FIFO
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 15 PRINTF: Andes core 15 log buffer addr: 0x3216800.
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 15 PRINTF: Andes[15] send handshake response to Andes 0. startAddr: 0x1ff30024.
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 XC12 0 PRINTF: Hello world from XC12 0!
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 XC12 0 PRINTF: Submitting boot signature to FIFO
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 XC12 0 PRINTF: Hello world from XC12 0!
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 XC12 0 PRINTF: Submitting boot signature to FIFO
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 XC12 0 XC MB Clear Up: core 32 idx 4 flags: 0x0000000000000000 0x0000000001010101
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 XC12 1 PRINTF: Hello world from XC12 1!
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 XC12 1 PRINTF: Submitting boot signature to FIFO
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 XC12 1 PRINTF: Hello world from XC12 1!
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 XC12 1 PRINTF: Submitting boot signature to FIFO
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 XC12 1 XC MB Clear Up: core 33 idx 4 flags: 0x0000000000000000 0x0000000001010101
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 XC12 2 PRINTF: Hello world from XC12 2!
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 XC12 2 PRINTF: Submitting boot signature to FIFO
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 XC12 2 PRINTF: Hello world from XC12 2!
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 XC12 2 PRINTF: Submitting boot signature to FIFO
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 XC12 2 XC MB Clear Up: core 34 idx 4 flags: 0x0000000000000000 0x0000000001010101
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00052]: 0xC0FFEE03(0x303FF, 11779)
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 event[00053]: 0xC0FFEE04(0x303FF, 11780)
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: == [ MAC_MSG_INFO] == Cell_{0} PlayBack Manager Init Done. {0}
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: == [ MAC_MSG_INFO] == Cell_{1} PlayBack Manager Init Done. {0}
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: handshake core id = 1
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: handshake core id = 2
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: handshake core id = 3
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: handshake core id = 4
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: handshake core id = 5
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: handshake core id = 6
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: handshake core id = 7
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: handshake core id = 8
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: handshake core id = 9
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: handshake core id = 10
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: handshake core id = 11
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: handshake core id = 12
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: handshake core id = 15
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: Andes[1] send handshake response to Andes 0. startAddr: 0x1ff30024.
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 2 PRINTF: Andes[2] send handshake response to Andes 0. startAddr: 0x1ff30024.
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 3 PRINTF: Andes[3] send handshake response to Andes 0. startAddr: 0x1ff30024.
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: Andes[4] send handshake response to Andes 0. startAddr: 0x1ff30024.
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 5 PRINTF: Andes[5] send handshake response to Andes 0. startAddr: 0x1ff30024.
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 6 PRINTF: Andes[6] send handshake response to Andes 0. startAddr: 0x1ff30024.
+Aug  8 09:04:35 localhost nrTestMAC[973]: PC802_0 PFI 7 PRINTF: Andes[7] send handshake response to Andes 0. startAddr: 0x1ff30024.
+Aug  8 09:04:40 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: JESD PHY init Start!
+Aug  8 09:04:40 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: JESD PHY access end!
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: handshake core id = 14
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: [ANDES_HANDSHAKE_INFO] Andes 0 Recv all cores ready Info. {65534}
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: enter mailbox poll, mode = 2
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_init_2 : 432 : Begin run PC802_init_2() !
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_print_build_info : 419 : PC802 PCIe driver on EP side, build AT 16:49:24 ON Aug  8 2023
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_print_build_info : 420 : GIT_Branch =
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_print_build_info : 421 : GIT_Commit = 0cc9b697
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_print_build_info : 422 : PLATFORM = pc802_bringup_soc
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_print_build_info : 423 : BUILDER = systemci.bj
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_print_build_info : 424 : BUILD_MACHINE = bjsys09
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_print_build_info : 425 : PICOOS_BASE = /home/systemci.bj/workspace/Release_FullPHY_v3.1.0/codes_phy/5gnr-phy/PicoOS
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_print_build_info : 426 : GIT_DESCRIBE = tag_FullPHY_v2.1.0.0-39-g0cc9b697
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_init_2 : 459 : DL RDMA CH 0 IRQ 65, Result = 0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_init_2 : 459 : DL RDMA CH 1 IRQ 66, Result = 0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_init_2 : 459 : DL RDMA CH 2 IRQ 67, Result = 0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_init_2 : 459 : DL RDMA CH 3 IRQ 68, Result = 0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_init_2 : 468 : UL WDMA CH 0 IRQ 61, Result = 0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_init_2 : 468 : UL WDMA CH 1 IRQ 62, Result = 0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_init_2 : 468 : UL WDMA CH 2 IRQ 63, Result = 0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_init_2 : 468 : UL WDMA CH 3 IRQ 64, Result = 0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_init_2 : 473 : traf_flag = 1
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: [PCIE Driver ]Pcie Init Down.
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_check_reset : 610 : UL DMA Count : 0 -> 4
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_check_reset : 620 : (DEVEN=0  DEVRDY=5)
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_check_reset : 621 : Waiting for DEVEN > 0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_check_reset : 632 : (DEVEN=1  DEVRDY=5)
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_check_reset : 636 : (DEVEN=0, DEVRDY=1) PC802 is clearing ext/int/dma channels ...
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_check_reset : 659 : (DEVEN=0, DEVRDY=2) PC802 is waiting for enabling by RC ...
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_check_reset : 665 : (DEVEN=1, DEVRDY=2) PC802 has been enabled by RC !
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_check_reset : 671 : TDNUM[0] = 128
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_check_reset : 671 : TDNUM[1] = 128
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_check_reset : 671 : TDNUM[2] = 32
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_check_reset : 671 : TDNUM[3] = 0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_check_reset : 671 : TDNUM[4] = 128
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_check_reset : 671 : TDNUM[5] = 32
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_check_reset : 671 : TDNUM[6] = 64
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_check_reset : 698 : RDNUM[0] = 128
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_check_reset : 698 : RDNUM[1] = 128
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_check_reset : 698 : RDNUM[2] = 32
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_check_reset : 698 : RDNUM[3] = 0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_check_reset : 698 : RDNUM[4] = 128
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_check_reset : 698 : RDNUM[5] = 32
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_check_reset : 698 : RDNUM[6] = 64
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_check_reset : 726 : DBA: 0x00000008 B5F40000
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_check_reset : 734 : DEBUG: 0x00000008 B5F50000
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_check_reset : 739 : come here
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_dl_queue_setup : 814 : Setup DL Queue[0] ch = 0x03104AE0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_dl_queue_setup : 816 : qNo = 0 bufBase = 0xB35E8DC0 bufSzInU32 = 512 numOfBufs = 64
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_ul_queue_setup : 912 : Setup UL Queue[0] ch = 0x03102A80
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_ul_queue_setup : 914 : qNo = 0 bufBase = 0xB3608DC0 bufSzInU32 = 512 numOfBufs = 64
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_dl_queue_setup : 814 : Setup DL Queue[1] ch = 0x03104F80
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_dl_queue_setup : 816 : qNo = 1 bufBase = 0x12C02000 bufSzInU32 = 40192 numOfBufs = 2
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_ul_queue_setup : 912 : Setup UL Queue[1] ch = 0x03102F20
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_ul_queue_setup : 914 : qNo = 1 bufBase = 0x12000700 bufSzInU32 = 10120 numOfBufs = 4
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_dl_queue_setup : 814 : Setup DL Queue[2] ch = 0x03105420
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_dl_queue_setup : 816 : qNo = 2 bufBase = 0x032BB200 bufSzInU32 = 8192 numOfBufs = 4
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_ul_queue_setup : 912 : Setup UL Queue[2] ch = 0x031033C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_ul_queue_setup : 914 : qNo = 2 bufBase = 0x0322E880 bufSzInU32 = 8192 numOfBufs = 4
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_dl_queue_setup : 814 : Setup DL Queue[4] ch = 0x03105D60
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_dl_queue_setup : 816 : qNo = 4 bufBase = 0x12C50800 bufSzInU32 = 40192 numOfBufs = 2
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_ul_queue_setup : 912 : Setup UL Queue[4] ch = 0x03103D00
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_ul_queue_setup : 914 : qNo = 4 bufBase = 0x12027F80 bufSzInU32 = 10120 numOfBufs = 4
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_dl_queue_setup : 814 : Setup DL Queue[5] ch = 0x03106200
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_dl_queue_setup : 816 : qNo = 5 bufBase = 0x032DB200 bufSzInU32 = 8192 numOfBufs = 4
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_ul_queue_setup : 912 : Setup UL Queue[5] ch = 0x031041A0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_ul_queue_setup : 914 : qNo = 5 bufBase = 0x0324E880 bufSzInU32 = 8192 numOfBufs = 4
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_dl_queue_setup : 814 : Setup DL Queue[6] ch = 0x031066A0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_dl_queue_setup : 816 : qNo = 6 bufBase = 0x8759AD00 bufSzInU32 = 520 numOfBufs = 16
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_ul_queue_setup : 912 : Setup UL Queue[6] ch = 0x03104640
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_ul_queue_setup : 914 : qNo = 6 bufBase = 0x87592C00 bufSzInU32 = 1032 numOfBufs = 8
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_check_reset : 761 : Write back DEVRDY=3
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_check_reset : 769 : come here
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_check_reset : 773 : come here
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_check_reset : 777 : (DEVEN=1, DEVRDY=3) Finish checking reset !
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: PC802_wait_pcie_init_ok : 250 : Have Checked DRVSTATE = 3
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: PC802_wait_pcie_init_ok : 256 : pc802_mem_cfg = 0x031087C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: PC802_invalidate_shared_data : 214 : start = 0x03108808  end = 0x03108840
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: PC802_invalidate_shared_data : 222 : k = 0, int_dl = 0x03104AE0 int_ul = 0x03102A80
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: PC802_invalidate_shared_data : 222 : k = 1, int_dl = 0x03104F80 int_ul = 0x03102F20
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: PC802_invalidate_shared_data : 222 : k = 2, int_dl = 0x03105420 int_ul = 0x031033C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: PC802_invalidate_shared_data : 222 : k = 3, int_dl = 0x031058C0 int_ul = 0x03103860
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: PC802_invalidate_shared_data : 222 : k = 4, int_dl = 0x03105D60 int_ul = 0x03103D00
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: PC802_invalidate_shared_data : 222 : k = 5, int_dl = 0x03106200 int_ul = 0x031041A0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: PC802_invalidate_shared_data : 222 : k = 6, int_dl = 0x031066A0 int_ul = 0x03104640
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: PC802_wait_pcie_init_ok : 250 : Have Checked DRVSTATE = 3
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: PC802_wait_pcie_init_ok : 256 : pc802_mem_cfg = 0x031087C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: PC802_invalidate_shared_data : 214 : start = 0x03108808  end = 0x03108840
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: PC802_invalidate_shared_data : 222 : k = 0, int_dl = 0x03104AE0 int_ul = 0x03102A80
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: PC802_invalidate_shared_data : 222 : k = 1, int_dl = 0x03104F80 int_ul = 0x03102F20
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: PC802_invalidate_shared_data : 222 : k = 2, int_dl = 0x03105420 int_ul = 0x031033C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: PC802_invalidate_shared_data : 222 : k = 3, int_dl = 0x031058C0 int_ul = 0x03103860
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: PC802_invalidate_shared_data : 222 : k = 4, int_dl = 0x03105D60 int_ul = 0x03103D00
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: PC802_invalidate_shared_data : 222 : k = 5, int_dl = 0x03106200 int_ul = 0x031041A0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: PC802_invalidate_shared_data : 222 : k = 6, int_dl = 0x031066A0 int_ul = 0x03104640
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 2 PRINTF: PC802_wait_pcie_init_ok : 250 : Have Checked DRVSTATE = 3
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 2 PRINTF: PC802_wait_pcie_init_ok : 256 : pc802_mem_cfg = 0x031087C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 2 PRINTF: PC802_invalidate_shared_data : 214 : start = 0x03108808  end = 0x03108840
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 2 PRINTF: PC802_invalidate_shared_data : 222 : k = 0, int_dl = 0x03104AE0 int_ul = 0x03102A80
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 2 PRINTF: PC802_invalidate_shared_data : 222 : k = 1, int_dl = 0x03104F80 int_ul = 0x03102F20
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 2 PRINTF: PC802_invalidate_shared_data : 222 : k = 2, int_dl = 0x03105420 int_ul = 0x031033C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 2 PRINTF: PC802_invalidate_shared_data : 222 : k = 3, int_dl = 0x031058C0 int_ul = 0x03103860
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 2 PRINTF: PC802_invalidate_shared_data : 222 : k = 4, int_dl = 0x03105D60 int_ul = 0x03103D00
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 2 PRINTF: PC802_invalidate_shared_data : 222 : k = 5, int_dl = 0x03106200 int_ul = 0x031041A0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 2 PRINTF: PC802_invalidate_shared_data : 222 : k = 6, int_dl = 0x031066A0 int_ul = 0x03104640
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 3 PRINTF: PC802_wait_pcie_init_ok : 250 : Have Checked DRVSTATE = 3
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 3 PRINTF: PC802_wait_pcie_init_ok : 256 : pc802_mem_cfg = 0x031087C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 3 PRINTF: PC802_invalidate_shared_data : 214 : start = 0x03108808  end = 0x03108840
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 3 PRINTF: PC802_invalidate_shared_data : 222 : k = 0, int_dl = 0x03104AE0 int_ul = 0x03102A80
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 3 PRINTF: PC802_invalidate_shared_data : 222 : k = 1, int_dl = 0x03104F80 int_ul = 0x03102F20
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 3 PRINTF: PC802_invalidate_shared_data : 222 : k = 2, int_dl = 0x03105420 int_ul = 0x031033C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 3 PRINTF: PC802_invalidate_shared_data : 222 : k = 3, int_dl = 0x031058C0 int_ul = 0x03103860
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 3 PRINTF: PC802_invalidate_shared_data : 222 : k = 4, int_dl = 0x03105D60 int_ul = 0x03103D00
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 3 PRINTF: PC802_invalidate_shared_data : 222 : k = 5, int_dl = 0x03106200 int_ul = 0x031041A0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 3 PRINTF: PC802_invalidate_shared_data : 222 : k = 6, int_dl = 0x031066A0 int_ul = 0x03104640
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: PC802_wait_pcie_init_ok : 250 : Have Checked DRVSTATE = 3
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: PC802_wait_pcie_init_ok : 256 : pc802_mem_cfg = 0x031087C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: PC802_invalidate_shared_data : 214 : start = 0x03108808  end = 0x03108840
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: PC802_invalidate_shared_data : 222 : k = 0, int_dl = 0x03104AE0 int_ul = 0x03102A80
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: PC802_invalidate_shared_data : 222 : k = 1, int_dl = 0x03104F80 int_ul = 0x03102F20
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: PC802_invalidate_shared_data : 222 : k = 2, int_dl = 0x03105420 int_ul = 0x031033C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: PC802_invalidate_shared_data : 222 : k = 3, int_dl = 0x031058C0 int_ul = 0x03103860
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: PC802_invalidate_shared_data : 222 : k = 4, int_dl = 0x03105D60 int_ul = 0x03103D00
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: PC802_invalidate_shared_data : 222 : k = 5, int_dl = 0x03106200 int_ul = 0x031041A0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: PC802_invalidate_shared_data : 222 : k = 6, int_dl = 0x031066A0 int_ul = 0x03104640
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 5 PRINTF: PC802_wait_pcie_init_ok : 250 : Have Checked DRVSTATE = 3
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 5 PRINTF: PC802_wait_pcie_init_ok : 256 : pc802_mem_cfg = 0x031087C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 5 PRINTF: PC802_invalidate_shared_data : 214 : start = 0x03108808  end = 0x03108840
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 5 PRINTF: PC802_invalidate_shared_data : 222 : k = 0, int_dl = 0x03104AE0 int_ul = 0x03102A80
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 5 PRINTF: PC802_invalidate_shared_data : 222 : k = 1, int_dl = 0x03104F80 int_ul = 0x03102F20
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 5 PRINTF: PC802_invalidate_shared_data : 222 : k = 2, int_dl = 0x03105420 int_ul = 0x031033C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 5 PRINTF: PC802_invalidate_shared_data : 222 : k = 3, int_dl = 0x031058C0 int_ul = 0x03103860
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 5 PRINTF: PC802_invalidate_shared_data : 222 : k = 4, int_dl = 0x03105D60 int_ul = 0x03103D00
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 5 PRINTF: PC802_invalidate_shared_data : 222 : k = 5, int_dl = 0x03106200 int_ul = 0x031041A0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 5 PRINTF: PC802_invalidate_shared_data : 222 : k = 6, int_dl = 0x031066A0 int_ul = 0x03104640
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 6 PRINTF: PC802_wait_pcie_init_ok : 250 : Have Checked DRVSTATE = 3
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 6 PRINTF: PC802_wait_pcie_init_ok : 256 : pc802_mem_cfg = 0x031087C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 6 PRINTF: PC802_invalidate_shared_data : 214 : start = 0x03108808  end = 0x03108840
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 6 PRINTF: PC802_invalidate_shared_data : 222 : k = 0, int_dl = 0x03104AE0 int_ul = 0x03102A80
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 6 PRINTF: PC802_invalidate_shared_data : 222 : k = 1, int_dl = 0x03104F80 int_ul = 0x03102F20
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 6 PRINTF: PC802_invalidate_shared_data : 222 : k = 2, int_dl = 0x03105420 int_ul = 0x031033C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 6 PRINTF: PC802_invalidate_shared_data : 222 : k = 3, int_dl = 0x031058C0 int_ul = 0x03103860
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 6 PRINTF: PC802_invalidate_shared_data : 222 : k = 4, int_dl = 0x03105D60 int_ul = 0x03103D00
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 6 PRINTF: PC802_invalidate_shared_data : 222 : k = 5, int_dl = 0x03106200 int_ul = 0x031041A0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 6 PRINTF: PC802_invalidate_shared_data : 222 : k = 6, int_dl = 0x031066A0 int_ul = 0x03104640
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 7 PRINTF: PC802_wait_pcie_init_ok : 250 : Have Checked DRVSTATE = 3
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 7 PRINTF: PC802_wait_pcie_init_ok : 256 : pc802_mem_cfg = 0x031087C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 7 PRINTF: PC802_invalidate_shared_data : 214 : start = 0x03108808  end = 0x03108840
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 7 PRINTF: PC802_invalidate_shared_data : 222 : k = 0, int_dl = 0x03104AE0 int_ul = 0x03102A80
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 7 PRINTF: PC802_invalidate_shared_data : 222 : k = 1, int_dl = 0x03104F80 int_ul = 0x03102F20
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 7 PRINTF: PC802_invalidate_shared_data : 222 : k = 2, int_dl = 0x03105420 int_ul = 0x031033C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 7 PRINTF: PC802_invalidate_shared_data : 222 : k = 3, int_dl = 0x031058C0 int_ul = 0x03103860
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 7 PRINTF: PC802_invalidate_shared_data : 222 : k = 4, int_dl = 0x03105D60 int_ul = 0x03103D00
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 7 PRINTF: PC802_invalidate_shared_data : 222 : k = 5, int_dl = 0x03106200 int_ul = 0x031041A0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 7 PRINTF: PC802_invalidate_shared_data : 222 : k = 6, int_dl = 0x031066A0 int_ul = 0x03104640
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 8 PRINTF: PC802_wait_pcie_init_ok : 250 : Have Checked DRVSTATE = 3
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 8 PRINTF: PC802_wait_pcie_init_ok : 256 : pc802_mem_cfg = 0x031087C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 8 PRINTF: PC802_invalidate_shared_data : 214 : start = 0x03108808  end = 0x03108840
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 8 PRINTF: PC802_invalidate_shared_data : 222 : k = 0, int_dl = 0x03104AE0 int_ul = 0x03102A80
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 8 PRINTF: PC802_invalidate_shared_data : 222 : k = 1, int_dl = 0x03104F80 int_ul = 0x03102F20
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 8 PRINTF: PC802_invalidate_shared_data : 222 : k = 2, int_dl = 0x03105420 int_ul = 0x031033C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 8 PRINTF: PC802_invalidate_shared_data : 222 : k = 3, int_dl = 0x031058C0 int_ul = 0x03103860
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 8 PRINTF: PC802_invalidate_shared_data : 222 : k = 4, int_dl = 0x03105D60 int_ul = 0x03103D00
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 8 PRINTF: PC802_invalidate_shared_data : 222 : k = 5, int_dl = 0x03106200 int_ul = 0x031041A0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 8 PRINTF: PC802_invalidate_shared_data : 222 : k = 6, int_dl = 0x031066A0 int_ul = 0x03104640
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 9 PRINTF: PC802_wait_pcie_init_ok : 250 : Have Checked DRVSTATE = 3
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 9 PRINTF: PC802_wait_pcie_init_ok : 256 : pc802_mem_cfg = 0x031087C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 9 PRINTF: PC802_invalidate_shared_data : 214 : start = 0x03108808  end = 0x03108840
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 9 PRINTF: PC802_invalidate_shared_data : 222 : k = 0, int_dl = 0x03104AE0 int_ul = 0x03102A80
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 9 PRINTF: PC802_invalidate_shared_data : 222 : k = 1, int_dl = 0x03104F80 int_ul = 0x03102F20
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 9 PRINTF: PC802_invalidate_shared_data : 222 : k = 2, int_dl = 0x03105420 int_ul = 0x031033C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 9 PRINTF: PC802_invalidate_shared_data : 222 : k = 3, int_dl = 0x031058C0 int_ul = 0x03103860
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 9 PRINTF: PC802_invalidate_shared_data : 222 : k = 4, int_dl = 0x03105D60 int_ul = 0x03103D00
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 9 PRINTF: PC802_invalidate_shared_data : 222 : k = 5, int_dl = 0x03106200 int_ul = 0x031041A0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 9 PRINTF: PC802_invalidate_shared_data : 222 : k = 6, int_dl = 0x031066A0 int_ul = 0x03104640
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 10 PRINTF: PC802_wait_pcie_init_ok : 250 : Have Checked DRVSTATE = 3
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 10 PRINTF: PC802_wait_pcie_init_ok : 256 : pc802_mem_cfg = 0x031087C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 10 PRINTF: PC802_invalidate_shared_data : 214 : start = 0x03108808  end = 0x03108840
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 10 PRINTF: PC802_invalidate_shared_data : 222 : k = 0, int_dl = 0x03104AE0 int_ul = 0x03102A80
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 10 PRINTF: PC802_invalidate_shared_data : 222 : k = 1, int_dl = 0x03104F80 int_ul = 0x03102F20
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 10 PRINTF: PC802_invalidate_shared_data : 222 : k = 2, int_dl = 0x03105420 int_ul = 0x031033C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 10 PRINTF: PC802_invalidate_shared_data : 222 : k = 3, int_dl = 0x031058C0 int_ul = 0x03103860
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 10 PRINTF: PC802_invalidate_shared_data : 222 : k = 4, int_dl = 0x03105D60 int_ul = 0x03103D00
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 10 PRINTF: PC802_invalidate_shared_data : 222 : k = 5, int_dl = 0x03106200 int_ul = 0x031041A0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 10 PRINTF: PC802_invalidate_shared_data : 222 : k = 6, int_dl = 0x031066A0 int_ul = 0x03104640
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PC802_wait_pcie_init_ok : 250 : Have Checked DRVSTATE = 3
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PC802_wait_pcie_init_ok : 256 : pc802_mem_cfg = 0x031087C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PC802_invalidate_shared_data : 214 : start = 0x03108808  end = 0x03108840
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PC802_invalidate_shared_data : 222 : k = 0, int_dl = 0x03104AE0 int_ul = 0x03102A80
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PC802_invalidate_shared_data : 222 : k = 1, int_dl = 0x03104F80 int_ul = 0x03102F20
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PC802_invalidate_shared_data : 222 : k = 2, int_dl = 0x03105420 int_ul = 0x031033C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PC802_invalidate_shared_data : 222 : k = 3, int_dl = 0x031058C0 int_ul = 0x03103860
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PC802_invalidate_shared_data : 222 : k = 4, int_dl = 0x03105D60 int_ul = 0x03103D00
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PC802_invalidate_shared_data : 222 : k = 5, int_dl = 0x03106200 int_ul = 0x031041A0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PC802_invalidate_shared_data : 222 : k = 6, int_dl = 0x031066A0 int_ul = 0x03104640
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 12 PRINTF: PC802_wait_pcie_init_ok : 250 : Have Checked DRVSTATE = 3
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 12 PRINTF: PC802_wait_pcie_init_ok : 256 : pc802_mem_cfg = 0x031087C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 12 PRINTF: PC802_invalidate_shared_data : 214 : start = 0x03108808  end = 0x03108840
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 12 PRINTF: PC802_invalidate_shared_data : 222 : k = 0, int_dl = 0x03104AE0 int_ul = 0x03102A80
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 12 PRINTF: PC802_invalidate_shared_data : 222 : k = 1, int_dl = 0x03104F80 int_ul = 0x03102F20
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 12 PRINTF: PC802_invalidate_shared_data : 222 : k = 2, int_dl = 0x03105420 int_ul = 0x031033C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 12 PRINTF: PC802_invalidate_shared_data : 222 : k = 3, int_dl = 0x031058C0 int_ul = 0x03103860
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 12 PRINTF: PC802_invalidate_shared_data : 222 : k = 4, int_dl = 0x03105D60 int_ul = 0x03103D00
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 12 PRINTF: PC802_invalidate_shared_data : 222 : k = 5, int_dl = 0x03106200 int_ul = 0x031041A0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 12 PRINTF: PC802_invalidate_shared_data : 222 : k = 6, int_dl = 0x031066A0 int_ul = 0x03104640
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 13 PRINTF: PC802_wait_pcie_init_ok : 250 : Have Checked DRVSTATE = 3
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 13 PRINTF: PC802_wait_pcie_init_ok : 256 : pc802_mem_cfg = 0x031087C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 13 PRINTF: PC802_invalidate_shared_data : 214 : start = 0x03108808  end = 0x03108840
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 13 PRINTF: PC802_invalidate_shared_data : 222 : k = 0, int_dl = 0x03104AE0 int_ul = 0x03102A80
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 13 PRINTF: PC802_invalidate_shared_data : 222 : k = 1, int_dl = 0x03104F80 int_ul = 0x03102F20
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 13 PRINTF: PC802_invalidate_shared_data : 222 : k = 2, int_dl = 0x03105420 int_ul = 0x031033C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 13 PRINTF: PC802_invalidate_shared_data : 222 : k = 3, int_dl = 0x031058C0 int_ul = 0x03103860
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 13 PRINTF: PC802_invalidate_shared_data : 222 : k = 4, int_dl = 0x03105D60 int_ul = 0x03103D00
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 13 PRINTF: PC802_invalidate_shared_data : 222 : k = 5, int_dl = 0x03106200 int_ul = 0x031041A0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 13 PRINTF: PC802_invalidate_shared_data : 222 : k = 6, int_dl = 0x031066A0 int_ul = 0x03104640
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: Jesd Link Est Training success, ReTryCnt = 0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: Andes core 14 log buffer addr: 0x3215400.
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: Andes[14] send handshake response to Andes 0. startAddr: 0x1ff30024.
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: PC802_wait_pcie_init_ok : 250 : Have Checked DRVSTATE = 3
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: PC802_wait_pcie_init_ok : 256 : pc802_mem_cfg = 0x031087C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: PC802_invalidate_shared_data : 214 : start = 0x03108808  end = 0x03108840
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: PC802_invalidate_shared_data : 222 : k = 0, int_dl = 0x03104AE0 int_ul = 0x03102A80
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: PC802_invalidate_shared_data : 222 : k = 1, int_dl = 0x03104F80 int_ul = 0x03102F20
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: PC802_invalidate_shared_data : 222 : k = 2, int_dl = 0x03105420 int_ul = 0x031033C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: PC802_invalidate_shared_data : 222 : k = 3, int_dl = 0x031058C0 int_ul = 0x03103860
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: PC802_invalidate_shared_data : 222 : k = 4, int_dl = 0x03105D60 int_ul = 0x03103D00
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: PC802_invalidate_shared_data : 222 : k = 5, int_dl = 0x03106200 int_ul = 0x031041A0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: PC802_invalidate_shared_data : 222 : k = 6, int_dl = 0x031066A0 int_ul = 0x03104640
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: init_pfi_oam done
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: PC802_wait_pcie_init_ok : 250 : Have Checked DRVSTATE = 3
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: PC802_wait_pcie_init_ok : 256 : pc802_mem_cfg = 0x031087C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: PC802_invalidate_shared_data : 214 : start = 0x03108808  end = 0x03108840
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: PC802_invalidate_shared_data : 222 : k = 0, int_dl = 0x03104AE0 int_ul = 0x03102A80
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: PC802_invalidate_shared_data : 222 : k = 1, int_dl = 0x03104F80 int_ul = 0x03102F20
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: PC802_invalidate_shared_data : 222 : k = 2, int_dl = 0x03105420 int_ul = 0x031033C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: PC802_invalidate_shared_data : 222 : k = 3, int_dl = 0x031058C0 int_ul = 0x03103860
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: PC802_invalidate_shared_data : 222 : k = 4, int_dl = 0x03105D60 int_ul = 0x03103D00
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: PC802_invalidate_shared_data : 222 : k = 5, int_dl = 0x03106200 int_ul = 0x031041A0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: PC802_invalidate_shared_data : 222 : k = 6, int_dl = 0x031066A0 int_ul = 0x03104640
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: oam_agent_work pcie initial done
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: phy_oam node registration
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: PC802_invalidate_shared_data : 214 : start = 0x03108808  end = 0x03108840
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: PC802_invalidate_shared_data : 222 : k = 0, int_dl = 0x03104AE0 int_ul = 0x03102A80
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: PC802_invalidate_shared_data : 222 : k = 1, int_dl = 0x03104F80 int_ul = 0x03102F20
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: PC802_invalidate_shared_data : 222 : k = 2, int_dl = 0x03105420 int_ul = 0x031033C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: PC802_invalidate_shared_data : 222 : k = 3, int_dl = 0x031058C0 int_ul = 0x03103860
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: PC802_invalidate_shared_data : 222 : k = 4, int_dl = 0x03105D60 int_ul = 0x03103D00
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: PC802_invalidate_shared_data : 222 : k = 5, int_dl = 0x03106200 int_ul = 0x031041A0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 14 PRINTF: PC802_invalidate_shared_data : 222 : k = 6, int_dl = 0x031066A0 int_ul = 0x03104640
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 15 PRINTF: PC802_wait_pcie_init_ok : 250 : Have Checked DRVSTATE = 3
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 15 PRINTF: PC802_wait_pcie_init_ok : 256 : pc802_mem_cfg = 0x031087C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 15 PRINTF: PC802_invalidate_shared_data : 214 : start = 0x03108808  end = 0x03108840
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 15 PRINTF: PC802_invalidate_shared_data : 222 : k = 0, int_dl = 0x03104AE0 int_ul = 0x03102A80
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 15 PRINTF: PC802_invalidate_shared_data : 222 : k = 1, int_dl = 0x03104F80 int_ul = 0x03102F20
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 15 PRINTF: PC802_invalidate_shared_data : 222 : k = 2, int_dl = 0x03105420 int_ul = 0x031033C0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 15 PRINTF: PC802_invalidate_shared_data : 222 : k = 3, int_dl = 0x031058C0 int_ul = 0x03103860
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 15 PRINTF: PC802_invalidate_shared_data : 222 : k = 4, int_dl = 0x03105D60 int_ul = 0x03103D00
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 15 PRINTF: PC802_invalidate_shared_data : 222 : k = 5, int_dl = 0x03106200 int_ul = 0x031041A0
+Aug  8 09:04:42 localhost nrTestMAC[973]: PC802_0 PFI 15 PRINTF: PC802_invalidate_shared_data : 222 : k = 6, int_dl = 0x031066A0 int_ul = 0x03104640
+Aug  8 09:05:01 localhost CRON[991]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Aug  8 09:05:12 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == DbTable Info_0: numTables_{0x00000000}, dBIdx_[0-3]{0x00000000 - 0x00000000 - 0x00000000 - 0x00000000}, offset_{4}
+Aug  8 09:05:12 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell[0] Recv Configure Req {2} from Mac
+Aug  8 09:05:12 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: cellIndex = 0, config = 0, wola winLen = 116, factor = 565, Nfft = 4096
+Aug  8 09:05:12 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: input scal_adjust = 0, adaptive scale = 7
+Aug  8 09:05:12 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: rx wola para: winlen = 116, incr = 565
+Aug  8 09:05:12 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == CellIdx_{0} Tdd Table Info is {11111111 - 11111133 - 2222}, Cnt_{07020100}
+Aug  8 09:05:12 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell_{0} Set PayloadPcieBuf Start. Info: layer_{1}, bandWidth_{100}, workMode_{1}, carrierNum_{1}, Rb_{273}
+Aug  8 09:05:12 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell_{0} Set PayloadPcieBuf {0}th Complete. Info: Base_0x{12000700}, size_{10120}, num_{4}, flag_{00000000}
+Aug  8 09:05:12 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == CellIdx_{0} Config_req scan {0} normal.
+Aug  8 09:05:12 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] ==  Cell[0] PHY transits to a new state: 1.
+Aug  8 09:05:12 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell[0] Push_Indication Info: MsgID[3]: msgNum_{1},buf_{0x0322E8A4}, msgLen_{8}, offset_{20}.
+Aug  8 09:05:13 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell[0] Recv Start Req {4} from Mac
+Aug  8 09:05:13 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == [Start_Req]Cell_{0} Push Andes 15 Ecpri Timer Start Event value = 0xae571040.
+Aug  8 09:05:13 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] ==  Cell[0] PHY transits to a new state: 2.
+Aug  8 09:05:13 localhost nrTestMAC[973]: PC802_0 PFI 15 PRINTF: Andes 15 Receive Timer Start Enven , logicCellIndex = 0, cellIdx = 0, spread = 1, fapi_slot_scale = 0.
+Aug  8 09:05:13 localhost nrTestMAC[973]: PC802_0 PFI 15 PRINTF: start wait pp1s sync
+Aug  8 09:05:13 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == [Running State]Cell_{0} Start_{0} timer Info: sfn_{0},slot_{1} ===
+Aug  8 09:05:13 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[0]:  Cell_0     1stID - [0] TotalCnt - [0] MaxTA - [0] MinTA - [0]
+Aug  8 09:05:13 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[1]:       MaxRSSI - [0] MinRSSI - [0] MaxTAinS - [0] MinTAinS - [0]
+Aug  8 09:05:13 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[2]:       PASSED  - [0] TotalCnt - [0]
+Aug  8 09:05:13 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUSCH:      Cell_0    CRC-PASSED - [0] TotalCnt - [0]
+Aug  8 09:05:13 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUCCH FMT2: Cell_0    CRC-PASSED - [0] TotalCnt - [0]
+Aug  8 09:05:13 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SRS:      Cell_0   1stID - MaxTA - [0] MinTA - [0] MaxSnr - [0] MinSnr - [0]
+Aug  8 09:05:13 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: FAPI ScanRslt: Cell_0  dlTti - [0], ulTti - [0], txDataTti - [0], ulDci - [0]
+Aug  8 09:05:13 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SSB Info: Cell_0   Recv - [0], DealDone - [0], Copy - [0]
+Aug  8 09:05:13 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Msg time match Info: Copy_pusch_prach_srs - [0 - 0 - 0], msgMiss - [0 - 0]
+Aug  8 09:05:13 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Ctrl Data Msg time : data_alloc_{0}, data_put_{0}, ttiMissing_{1}
+Aug  8 09:05:13 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: ============ !!!  Cell_0 End the uplink report statistics !!! ============
+Aug  8 09:05:13 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: ============ !!! CellIdx_{0} Begin the uplink report statistics !!! ============
+Aug  8 09:05:13 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: gSupperSfnCnt: [0]; gPcieMsgRecvCnt: [9]; gPcieMsgFreeCnt: [2]; gSiPdschCnt: [0]
+
+Aug  8 09:05:22 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: DL PCIe Ctrl interval < 470us in last 20 seconds : Count = 1
+Aug  8 09:05:22 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: DL PCIe Ctrl interval > 530us in last 20 seconds : Count = 7
+Aug  8 09:05:24 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[0]:  Cell_0     1stID - [0] TotalCnt - [0] MaxTA - [0] MinTA - [0]
+Aug  8 09:05:24 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[1]:       MaxRSSI - [0] MinRSSI - [0] MaxTAinS - [0] MinTAinS - [0]
+Aug  8 09:05:24 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[2]:       PASSED  - [0] TotalCnt - [0]
+Aug  8 09:05:24 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUSCH:      Cell_0    CRC-PASSED - [0] TotalCnt - [4096]
+Aug  8 09:05:24 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUCCH FMT2: Cell_0    CRC-PASSED - [17] TotalCnt - [4096]
+Aug  8 09:05:24 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SRS:      Cell_0   1stID - MaxTA - [0] MinTA - [0] MaxSnr - [0] MinSnr - [11]
+Aug  8 09:05:24 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: FAPI ScanRslt: Cell_0  dlTti - [0], ulTti - [0], txDataTti - [0], ulDci - [0]
+Aug  8 09:05:24 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SSB Info: Cell_0   Recv - [2048], DealDone - [2048], Copy - [2048]
+Aug  8 09:05:24 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Msg time match Info: Copy_pusch_prach_srs - [4096 - 1024 - 0], msgMiss - [0 - 0]
+Aug  8 09:05:24 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Ctrl Data Msg time : data_alloc_{4096}, data_put_{4096}, ttiMissing_{1}
+Aug  8 09:05:24 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: ============ !!!  Cell_0 End the uplink report statistics !!! ============
+Aug  8 09:05:24 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: ============ !!! CellIdx_{0} Begin the uplink report statistics !!! ============
+Aug  8 09:05:24 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: gSupperSfnCnt: [1]; gPcieMsgRecvCnt: [20489]; gPcieMsgFreeCnt: [2]; gSiPdschCnt: [0]
+Aug  8 09:05:34 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[0]:  Cell_0     1stID - [-654932] TotalCnt - [0] MaxTA - [0] MinTA - [0]
+Aug  8 09:05:34 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[1]:       MaxRSSI - [0] MinRSSI - [0] MaxTAinS - [0] MinTAinS - [0]
+Aug  8 09:05:34 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[2]:       PASSED  - [0] TotalCnt - [0]
+Aug  8 09:05:34 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUSCH:      Cell_0    CRC-PASSED - [0] TotalCnt - [4096]
+Aug  8 09:05:34 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUCCH FMT2: Cell_0    CRC-PASSED - [23] TotalCnt - [4096]
+Aug  8 09:05:34 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SRS:      Cell_0   1stID - MaxTA - [0] MinTA - [64] MaxSnr - [0] MinSnr - [255]
+Aug  8 09:05:34 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: FAPI ScanRslt: Cell_0  dlTti - [0], ulTti - [0], txDataTti - [0], ulDci - [0]
+Aug  8 09:05:34 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SSB Info: Cell_0   Recv - [4096], DealDone - [4096], Copy - [4096]
+Aug  8 09:05:34 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Msg time match Info: Copy_pusch_prach_srs - [8192 - 2048 - 0], msgMiss - [0 - 0]
+Aug  8 09:05:34 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Ctrl Data Msg time : data_alloc_{8192}, data_put_{8192}, ttiMissing_{1}
+Aug  8 09:05:34 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: ============ !!!  Cell_0 End the uplink report statistics !!! ============
+Aug  8 09:05:34 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: ============ !!! CellIdx_{0} Begin the uplink report statistics !!! ============
+Aug  8 09:05:34 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: gSupperSfnCnt: [2]; gPcieMsgRecvCnt: [40969]; gPcieMsgFreeCnt: [2]; gSiPdschCnt: [0]
+Aug  8 09:05:36 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell[0] Recv Stop Req {5} from Mac
+Aug  8 09:05:36 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [  EXIT] == Cell{0} Deal Stop_Req done {1}, flag_{0}
+Aug  8 09:05:36 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] ==  Cell[0] PHY transits to a new state: 1.
+Aug  8 09:05:36 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell[0] Push_Indication Info: MsgID[6]: msgNum_{1},buf_{0x032368A4}, msgLen_{4}, offset_{16}.
+Aug  8 09:05:36 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell_{0} PlayBack Manager Init Done. {0}
+Aug  8 09:05:36 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [  EXIT] == [Stop Indication] Info_[1]: {0x00000001} {9058 - 9058}, buf_{0x00010006}, flag_{00000000} ===
+Aug  8 09:05:36 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [  EXIT] == [Stop Indication] Info_[0]: {0x00000001} {9058 - 9058}, buf_{0x00000006}, flag_{00000000} ===
+Aug  8 09:05:36 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [  EXIT] == Phy Deal the cell_{0} stop_request End. RxBuf_{27178 - 27178} {45295 - 45295} {00000001}
+Aug  8 09:05:36 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [  EXIT] == Andes 1 Receive cell_{0} exiting!!message, now exit. TxBuf_{9058 - 9058} {45299 - 45299} {00010001}
+Aug  8 09:05:36 localhost nrTestMAC[973]: PC802_0 PFI 2 PRINTF: == [  EXIT] == Cell_0 LdpcCrcCounter 0 LdpcCrcTotalCounter 9058 PolarCrcCounter 43 PolarCrcTotalCounter 9058
+Aug  8 09:05:36 localhost nrTestMAC[973]: PC802_0 PFI 2 PRINTF: == [  EXIT] == Cell_0 Prach: preamble multi {0}, preamble single {0}, IotDbgBufIOT {0x88bcbe60} CheckData {0xaa998877}...
+Aug  8 09:05:36 localhost nrTestMAC[973]: PC802_0 PFI 2 PRINTF: == [  EXIT] == Cell_0 F0DecTotalNum_{9058}, F0DecNum_{61}, PrachDecTotalCnt_{2264}, PrachDecCnt_{0 - 2264}...
+Aug  8 09:05:36 localhost nrTestMAC[973]: PC802_0 PFI 2 PRINTF: == [  EXIT] == Cell_0 F2DecTotalNum_{9058}, F2DecNum_{9058}, CheckData_{0x55aa}...
+Aug  8 09:05:36 localhost nrTestMAC[973]: PC802_0 PFI 2 PRINTF: == [  EXIT] == cell_0 is not running status. start dump record data {1}.
+Aug  8 09:05:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_driver_worker : 1628 : Info: PCIe driver is living @ cycleL = 3818956209
+Aug  8 09:05:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: DL PCIe Ctrl interval < 470us in last 20 seconds : Count = 1
+Aug  8 09:05:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: DL PCIe Ctrl interval > 530us in last 20 seconds : Count = 9
+Aug  8 09:05:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: UL PCIe Ctrl interval < 470us in last 20 seconds : Count = 1
+Aug  8 09:05:44 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == DbTable Info_0: numTables_{0x00000000}, dBIdx_[0-3]{0x00000000 - 0x00000000 - 0x00000000 - 0x00000000}, offset_{4}
+Aug  8 09:05:44 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell[0] Recv Configure Req {2} from Mac
+Aug  8 09:05:44 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: cellIndex = 0, config = 0, wola winLen = 116, factor = 565, Nfft = 4096
+Aug  8 09:05:44 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: input scal_adjust = 0, adaptive scale = 7
+Aug  8 09:05:44 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: rx wola para: winlen = 116, incr = 565
+Aug  8 09:05:44 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == CellIdx_{0} Tdd Table Info is {11111111 - 11111133 - 2222}, Cnt_{07020100}
+Aug  8 09:05:44 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell_{0} Set PayloadPcieBuf Start. Info: layer_{1}, bandWidth_{100}, workMode_{1}, carrierNum_{1}, Rb_{273}
+Aug  8 09:05:44 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell_{0} Set PayloadPcieBuf {1}th Complete. Info: Base_0x{12000700}, size_{10120}, num_{4}, flag_{00000000}
+Aug  8 09:05:44 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == CellIdx_{0} Config_req scan {1} normal.
+Aug  8 09:05:44 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell[0] Push_Indication Info: MsgID[3]: msgNum_{1},buf_{0x032468A4}, msgLen_{8}, offset_{20}.
+Aug  8 09:05:45 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell[0] Recv Start Req {4} from Mac
+Aug  8 09:05:45 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == [Start_Req]Cell_{0} Push Andes 15 Ecpri Timer Start Event value = 0xae571040.
+Aug  8 09:05:45 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] ==  Cell[0] PHY transits to a new state: 2.
+Aug  8 09:05:45 localhost nrTestMAC[973]: PC802_0 PFI 15 PRINTF: Andes 15 Receive Timer Start Enven , logicCellIndex = 0, cellIdx = 0, spread = 1, fapi_slot_scale = 0.
+Aug  8 09:05:45 localhost nrTestMAC[973]: PC802_0 PFI 15 PRINTF: start wait pp1s sync
+Aug  8 09:05:45 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == [Running State]Cell_{0} Start_{1} timer Info: sfn_{0},slot_{1} ===
+Aug  8 09:05:45 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[0]:  Cell_0     1stID - [-73773] TotalCnt - [0] MaxTA - [0] MinTA - [0]
+Aug  8 09:05:45 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[1]:       MaxRSSI - [0] MinRSSI - [0] MaxTAinS - [0] MinTAinS - [0]
+Aug  8 09:05:45 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[2]:       PASSED  - [0] TotalCnt - [0]
+Aug  8 09:05:45 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUSCH:      Cell_0    CRC-PASSED - [0] TotalCnt - [0]
+Aug  8 09:05:45 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUCCH FMT2: Cell_0    CRC-PASSED - [0] TotalCnt - [0]
+Aug  8 09:05:45 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SRS:      Cell_0   1stID - MaxTA - [0] MinTA - [64] MaxSnr - [0] MinSnr - [255]
+Aug  8 09:05:45 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: FAPI ScanRslt: Cell_0  dlTti - [0], ulTti - [0], txDataTti - [0], ulDci - [0]
+Aug  8 09:05:45 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SSB Info: Cell_0   Recv - [0], DealDone - [0], Copy - [0]
+Aug  8 09:05:45 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Msg time match Info: Copy_pusch_prach_srs - [0 - 0 - 0], msgMiss - [0 - 0]
+Aug  8 09:05:45 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Ctrl Data Msg time : data_alloc_{0}, data_put_{0}, ttiMissing_{1}
+Aug  8 09:05:45 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: ============ !!!  Cell_0 End the uplink report statistics !!! ============
+Aug  8 09:05:45 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: ============ !!! CellIdx_{0} Begin the uplink report statistics !!! ============
+Aug  8 09:05:45 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: gSupperSfnCnt: [3]; gPcieMsgRecvCnt: [45307]; gPcieMsgFreeCnt: [5]; gSiPdschCnt: [0]
+Aug  8 09:05:55 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: Cycle_Stats[UL_PHY_PUT]: Average = 480737    StdVar = 65536    Max = 2365242208    Min =  2226
+Aug  8 09:05:55 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: Cycle_Stats[DL_PHY_GET]: Average = 480743    StdVar = 65536    Max = 2364173053    Min = 382609
+Aug  8 09:05:55 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Cycle_Stats[DL_PCIE_RX]: Average = 480743    StdVar = 65536    Max = 2364174223    Min = 383665
+Aug  8 09:05:55 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Cycle_Stats[UL_PCIE_TX]: Average = 480744    StdVar = 65536    Max = 2365244787    Min = 33328
+Aug  8 09:05:56 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[0]:  Cell_0     1stID - [-852368] TotalCnt - [0] MaxTA - [0] MinTA - [0]
+Aug  8 09:05:56 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[1]:       MaxRSSI - [0] MinRSSI - [0] MaxTAinS - [0] MinTAinS - [0]
+Aug  8 09:05:56 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[2]:       PASSED  - [0] TotalCnt - [0]
+Aug  8 09:05:56 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUSCH:      Cell_0    CRC-PASSED - [0] TotalCnt - [4096]
+Aug  8 09:05:56 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUCCH FMT2: Cell_0    CRC-PASSED - [16] TotalCnt - [4096]
+Aug  8 09:05:56 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SRS:      Cell_0   1stID - MaxTA - [0] MinTA - [64] MaxSnr - [0] MinSnr - [255]
+Aug  8 09:05:56 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: FAPI ScanRslt: Cell_0  dlTti - [0], ulTti - [0], txDataTti - [0], ulDci - [0]
+Aug  8 09:05:56 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SSB Info: Cell_0   Recv - [2048], DealDone - [2048], Copy - [2048]
+Aug  8 09:05:56 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Msg time match Info: Copy_pusch_prach_srs - [4096 - 1024 - 0], msgMiss - [0 - 0]
+Aug  8 09:05:56 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Ctrl Data Msg time : data_alloc_{4096}, data_put_{4096}, ttiMissing_{1}
+Aug  8 09:05:56 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: ============ !!!  Cell_0 End the uplink report statistics !!! ============
+Aug  8 09:05:56 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: ============ !!! CellIdx_{0} Begin the uplink report statistics !!! ============
+Aug  8 09:05:56 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: gSupperSfnCnt: [4]; gPcieMsgRecvCnt: [65787]; gPcieMsgFreeCnt: [5]; gSiPdschCnt: [0]
+Aug  8 09:05:57 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell[0] Recv Stop Req {5} from Mac
+Aug  8 09:05:57 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [  EXIT] == Cell{0} Deal Stop_Req done {1}, flag_{0}
+Aug  8 09:05:57 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] ==  Cell[0] PHY transits to a new state: 1.
+Aug  8 09:05:57 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell_{0} Clear MsgInfo_0: msgNum_{3}, type_{1} flag_{35148620}, addr_{0x032bb220}, msgType_{128}
+Aug  8 09:05:57 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell[0] Push_Indication Info: MsgID[6]: msgNum_{1},buf_{0x0323E8A4}, msgLen_{4}, offset_{16}.
+Aug  8 09:05:57 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell_{0} PlayBack Manager Init Done. {0}
+Aug  8 09:05:57 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [  EXIT] == [Stop Indication] Info_[1]: {0x00000002} {13760 - 13760}, buf_{0x00010006}, flag_{00000000} ===
+Aug  8 09:05:57 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [  EXIT] == [Stop Indication] Info_[0]: {0x00000002} {13760 - 13760}, buf_{0x00000006}, flag_{00000000} ===
+Aug  8 09:05:57 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [  EXIT] == Phy Deal the cell_{0} stop_request End. RxBuf_{41287 - 41287} {68809 - 68809} {00000002}
+Aug  8 09:05:57 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [  EXIT] == Andes 1 Receive cell_{0} exiting!!message, now exit. TxBuf_{13760 - 13760} {68816 - 68816} {00010001}
+Aug  8 09:05:57 localhost nrTestMAC[973]: PC802_0 PFI 2 PRINTF: == [  EXIT] == Cell_0 LdpcCrcCounter 0 LdpcCrcTotalCounter 4702 PolarCrcCounter 19 PolarCrcTotalCounter 4702
+Aug  8 09:05:57 localhost nrTestMAC[973]: PC802_0 PFI 2 PRINTF: == [  EXIT] == Cell_0 Prach: preamble multi {0}, preamble single {0}, IotDbgBufIOT {0x88bcbe60} CheckData {0xaa998877}...
+Aug  8 09:05:57 localhost nrTestMAC[973]: PC802_0 PFI 2 PRINTF: == [  EXIT] == Cell_0 F0DecTotalNum_{13760}, F0DecNum_{85}, PrachDecTotalCnt_{3439}, PrachDecCnt_{0 - 3439}...
+Aug  8 09:05:57 localhost nrTestMAC[973]: PC802_0 PFI 2 PRINTF: == [  EXIT] == Cell_0 F2DecTotalNum_{13760}, F2DecNum_{13760}, CheckData_{0x55aa}...
+Aug  8 09:05:57 localhost nrTestMAC[973]: PC802_0 PFI 2 PRINTF: == [  EXIT] == cell_0 is not running status. start dump record data {2}.
+Aug  8 09:06:02 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: DL PCIe Ctrl interval < 470us in last 20 seconds : Count = 1
+Aug  8 09:06:02 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: DL PCIe Ctrl interval > 530us in last 20 seconds : Count = 12
+Aug  8 09:06:02 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: UL PCIe Ctrl interval < 470us in last 20 seconds : Count = 1
+Aug  8 09:06:02 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: UL PCIe Ctrl interval > 530us in last 20 seconds : Count = 2
+Aug  8 09:06:04 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == DbTable Info_0: numTables_{0x00000000}, dBIdx_[0-3]{0x00000000 - 0x00000000 - 0x00000000 - 0x00000000}, offset_{4}
+Aug  8 09:06:04 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell[0] Recv Configure Req {2} from Mac
+Aug  8 09:06:04 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: cellIndex = 0, config = 0, wola winLen = 116, factor = 565, Nfft = 4096
+Aug  8 09:06:04 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: input scal_adjust = 0, adaptive scale = 7
+Aug  8 09:06:04 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: rx wola para: winlen = 116, incr = 565
+Aug  8 09:06:04 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == CellIdx_{0} Tdd Table Info is {11111111 - 11111133 - 2222}, Cnt_{07020100}
+Aug  8 09:06:04 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell_{0} Set PayloadPcieBuf Start. Info: layer_{1}, bandWidth_{100}, workMode_{1}, carrierNum_{1}, Rb_{273}
+Aug  8 09:06:04 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell_{0} Set PayloadPcieBuf {2}th Complete. Info: Base_0x{12000700}, size_{10120}, num_{4}, flag_{00000000}
+Aug  8 09:06:04 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == CellIdx_{0} Config_req scan {2} normal.
+Aug  8 09:06:04 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell[0] Push_Indication Info: MsgID[3]: msgNum_{1},buf_{0x0322E8A4}, msgLen_{8}, offset_{20}.
+Aug  8 09:06:05 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell[0] Recv Start Req {4} from Mac
+Aug  8 09:06:05 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == [Start_Req]Cell_{0} Push Andes 15 Ecpri Timer Start Event value = 0xae571040.
+Aug  8 09:06:05 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] ==  Cell[0] PHY transits to a new state: 2.
+Aug  8 09:06:05 localhost nrTestMAC[973]: PC802_0 PFI 15 PRINTF: Andes 15 Receive Timer Start Enven , logicCellIndex = 0, cellIdx = 0, spread = 1, fapi_slot_scale = 0.
+Aug  8 09:06:05 localhost nrTestMAC[973]: PC802_0 PFI 15 PRINTF: start wait pp1s sync
+Aug  8 09:06:05 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == [Running State]Cell_{0} Start_{2} timer Info: sfn_{0},slot_{1} ===
+Aug  8 09:06:05 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[0]:  Cell_0     1stID - [-327414] TotalCnt - [0] MaxTA - [0] MinTA - [0]
+Aug  8 09:06:05 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[1]:       MaxRSSI - [0] MinRSSI - [0] MaxTAinS - [0] MinTAinS - [0]
+Aug  8 09:06:05 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[2]:       PASSED  - [0] TotalCnt - [0]
+Aug  8 09:06:05 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUSCH:      Cell_0    CRC-PASSED - [0] TotalCnt - [0]
+Aug  8 09:06:05 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUCCH FMT2: Cell_0    CRC-PASSED - [0] TotalCnt - [0]
+Aug  8 09:06:05 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SRS:      Cell_0   1stID - MaxTA - [0] MinTA - [64] MaxSnr - [0] MinSnr - [255]
+Aug  8 09:06:05 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: FAPI ScanRslt: Cell_0  dlTti - [0], ulTti - [0], txDataTti - [0], ulDci - [0]
+Aug  8 09:06:05 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SSB Info: Cell_0   Recv - [0], DealDone - [0], Copy - [0]
+Aug  8 09:06:05 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Msg time match Info: Copy_pusch_prach_srs - [0 - 0 - 0], msgMiss - [0 - 0]
+Aug  8 09:06:05 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Ctrl Data Msg time : data_alloc_{0}, data_put_{0}, ttiMissing_{1}
+Aug  8 09:06:05 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: ============ !!!  Cell_0 End the uplink report statistics !!! ============
+Aug  8 09:06:05 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: ============ !!! CellIdx_{0} Begin the uplink report statistics !!! ============
+Aug  8 09:06:05 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: gSupperSfnCnt: [5]; gPcieMsgRecvCnt: [68824]; gPcieMsgFreeCnt: [8]; gSiPdschCnt: [0]
+Aug  8 09:06:16 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[0]:  Cell_0     1stID - [-1049184] TotalCnt - [0] MaxTA - [0] MinTA - [0]
+Aug  8 09:06:16 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[1]:       MaxRSSI - [0] MinRSSI - [0] MaxTAinS - [0] MinTAinS - [0]
+Aug  8 09:06:16 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[2]:       PASSED  - [0] TotalCnt - [0]
+Aug  8 09:06:16 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUSCH:      Cell_0    CRC-PASSED - [0] TotalCnt - [4096]
+Aug  8 09:06:16 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUCCH FMT2: Cell_0    CRC-PASSED - [20] TotalCnt - [4096]
+Aug  8 09:06:16 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SRS:      Cell_0   1stID - MaxTA - [0] MinTA - [64] MaxSnr - [0] MinSnr - [255]
+Aug  8 09:06:16 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: FAPI ScanRslt: Cell_0  dlTti - [0], ulTti - [0], txDataTti - [0], ulDci - [0]
+Aug  8 09:06:16 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SSB Info: Cell_0   Recv - [2048], DealDone - [2048], Copy - [2048]
+Aug  8 09:06:16 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Msg time match Info: Copy_pusch_prach_srs - [4096 - 1024 - 0], msgMiss - [0 - 0]
+Aug  8 09:06:16 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Ctrl Data Msg time : data_alloc_{4096}, data_put_{4096}, ttiMissing_{1}
+Aug  8 09:06:16 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: ============ !!!  Cell_0 End the uplink report statistics !!! ============
+Aug  8 09:06:16 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: ============ !!! CellIdx_{0} Begin the uplink report statistics !!! ============
+Aug  8 09:06:16 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: gSupperSfnCnt: [6]; gPcieMsgRecvCnt: [89304]; gPcieMsgFreeCnt: [8]; gSiPdschCnt: [0]
+Aug  8 09:06:22 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: DL PCIe Ctrl interval > 530us in last 20 seconds : Count = 14
+Aug  8 09:06:22 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: UL PCIe Ctrl interval > 530us in last 20 seconds : Count = 2
+Aug  8 09:06:26 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[0]:  Cell_0     1stID - [-1312673] TotalCnt - [0] MaxTA - [0] MinTA - [0]
+Aug  8 09:06:26 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[1]:       MaxRSSI - [0] MinRSSI - [0] MaxTAinS - [0] MinTAinS - [0]
+Aug  8 09:06:26 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[2]:       PASSED  - [0] TotalCnt - [0]
+Aug  8 09:06:26 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUSCH:      Cell_0    CRC-PASSED - [0] TotalCnt - [4096]
+Aug  8 09:06:26 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUCCH FMT2: Cell_0    CRC-PASSED - [15] TotalCnt - [4096]
+Aug  8 09:06:26 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SRS:      Cell_0   1stID - MaxTA - [0] MinTA - [64] MaxSnr - [0] MinSnr - [255]
+Aug  8 09:06:26 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: FAPI ScanRslt: Cell_0  dlTti - [0], ulTti - [0], txDataTti - [0], ulDci - [0]
+Aug  8 09:06:26 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SSB Info: Cell_0   Recv - [4096], DealDone - [4096], Copy - [4096]
+Aug  8 09:06:26 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Msg time match Info: Copy_pusch_prach_srs - [8192 - 2048 - 0], msgMiss - [0 - 0]
+Aug  8 09:06:26 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Ctrl Data Msg time : data_alloc_{8192}, data_put_{8192}, ttiMissing_{1}
+Aug  8 09:06:26 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: ============ !!!  Cell_0 End the uplink report statistics !!! ============
+Aug  8 09:06:26 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: ============ !!! CellIdx_{0} Begin the uplink report statistics !!! ============
+Aug  8 09:06:26 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: gSupperSfnCnt: [7]; gPcieMsgRecvCnt: [109784]; gPcieMsgFreeCnt: [8]; gSiPdschCnt: [0]
+Aug  8 09:06:36 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[0]:  Cell_0     1stID - [-130209] TotalCnt - [0] MaxTA - [0] MinTA - [0]
+Aug  8 09:06:36 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[1]:       MaxRSSI - [0] MinRSSI - [0] MaxTAinS - [0] MinTAinS - [0]
+Aug  8 09:06:36 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[2]:       PASSED  - [0] TotalCnt - [0]
+Aug  8 09:06:36 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUSCH:      Cell_0    CRC-PASSED - [0] TotalCnt - [4096]
+Aug  8 09:06:36 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUCCH FMT2: Cell_0    CRC-PASSED - [23] TotalCnt - [4096]
+Aug  8 09:06:36 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SRS:      Cell_0   1stID - MaxTA - [0] MinTA - [64] MaxSnr - [0] MinSnr - [255]
+Aug  8 09:06:36 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: FAPI ScanRslt: Cell_0  dlTti - [0], ulTti - [0], txDataTti - [0], ulDci - [0]
+Aug  8 09:06:36 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SSB Info: Cell_0   Recv - [6144], DealDone - [6144], Copy - [6144]
+Aug  8 09:06:36 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Msg time match Info: Copy_pusch_prach_srs - [12288 - 3072 - 0], msgMiss - [0 - 0]
+Aug  8 09:06:36 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Ctrl Data Msg time : data_alloc_{12288}, data_put_{12288}, ttiMissing_{1}
+Aug  8 09:06:36 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: ============ !!!  Cell_0 End the uplink report statistics !!! ============
+Aug  8 09:06:36 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: ============ !!! CellIdx_{0} Begin the uplink report statistics !!! ============
+Aug  8 09:06:36 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: gSupperSfnCnt: [8]; gPcieMsgRecvCnt: [130264]; gPcieMsgFreeCnt: [8]; gSiPdschCnt: [0]
+Aug  8 09:06:36 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Cycle_Stats[DL_PCIE_RX]: Average = 466354    StdVar = 65536    Max = 1213262289    Min = 142381
+Aug  8 09:06:36 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: Cycle_Stats[UL_PHY_PUT]: Average = 466354    StdVar = 65536    Max = 1497414773    Min =  2200
+Aug  8 09:06:36 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: Cycle_Stats[DL_PHY_GET]: Average = 466353    StdVar = 65536    Max = 1213263264    Min = 131721
+Aug  8 09:06:36 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Cycle_Stats[UL_PCIE_TX]: Average = 466360    StdVar = 65536    Max = 1497415189    Min = 212752
+Aug  8 09:06:41 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell[0] Recv Stop Req {5} from Mac
+Aug  8 09:06:41 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [  EXIT] == Cell{0} Deal Stop_Req done {1}, flag_{0}
+Aug  8 09:06:41 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] ==  Cell[0] PHY transits to a new state: 1.
+Aug  8 09:06:41 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell[0] Push_Indication Info: MsgID[6]: msgNum_{1},buf_{0x0322E8A4}, msgLen_{4}, offset_{16}.
+Aug  8 09:06:41 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [  EXIT] == CellIdx_{0} Cnt_{0}, Payload buf[0]: {0x12000720}
+Aug  8 09:06:41 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell_{0} PlayBack Manager Init Done. {0}
+Aug  8 09:06:41 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [  EXIT] == CellIdx_{0} Clear the remaing_{0322e8a0 - 12000720} dataBuf_0x{032b7920}, size_{8} End.
+Aug  8 09:06:41 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [  EXIT] == [Stop Indication] Info_[1]: {0x00000003} {28041 - 28041}, buf_{0x00010006}, flag_{00010001} ===
+Aug  8 09:06:41 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [  EXIT] == [Stop Indication] Info_[0]: {0x00000003} {28041 - 28041}, buf_{0x00000006}, flag_{00010000} ===
+Aug  8 09:06:41 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [  EXIT] == Phy Deal the cell_{0} stop_request End. RxBuf_{84131 - 84131} {140215 - 140215} {00000003}
+Aug  8 09:06:41 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [  EXIT] == Andes 1 Receive cell_{0} exiting!!message, now exit. TxBuf_{28041 - 28041} {140226 - 140226} {00010001}
+Aug  8 09:06:41 localhost nrTestMAC[973]: PC802_0 PFI 2 PRINTF: == [  EXIT] == Cell_0 LdpcCrcCounter 0 LdpcCrcTotalCounter 14280 PolarCrcCounter 66 PolarCrcTotalCounter 14280
+Aug  8 09:06:41 localhost nrTestMAC[973]: PC802_0 PFI 2 PRINTF: == [  EXIT] == Cell_0 Prach: preamble multi {0}, preamble single {0}, IotDbgBufIOT {0x88bcbe60} CheckData {0xaa998877}...
+Aug  8 09:06:41 localhost nrTestMAC[973]: PC802_0 PFI 2 PRINTF: == [  EXIT] == Cell_0 F0DecTotalNum_{28040}, F0DecNum_{150}, PrachDecTotalCnt_{7009}, PrachDecCnt_{0 - 7009}...
+Aug  8 09:06:41 localhost nrTestMAC[973]: PC802_0 PFI 2 PRINTF: == [  EXIT] == Cell_0 F2DecTotalNum_{28040}, F2DecNum_{28040}, CheckData_{0x55aa}...
+Aug  8 09:06:41 localhost nrTestMAC[973]: PC802_0 PFI 2 PRINTF: == [  EXIT] == cell_0 is not running status. start dump record data {3}.
+Aug  8 09:06:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_driver_worker : 1628 : Info: PCIe driver is living @ cycleL = 3279405552
+Aug  8 09:06:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: DL PCIe Ctrl interval > 530us in last 20 seconds : Count = 11
+Aug  8 09:06:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: UL PCIe Ctrl interval < 470us in last 20 seconds : Count = 1
+Aug  8 09:06:50 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == DbTable Info_0: numTables_{0x00000000}, dBIdx_[0-3]{0x00000000 - 0x00000000 - 0x00000000 - 0x00000000}, offset_{4}
+Aug  8 09:06:50 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell[0] Recv Configure Req {2} from Mac
+Aug  8 09:06:50 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: cellIndex = 0, config = 0, wola winLen = 116, factor = 565, Nfft = 4096
+Aug  8 09:06:50 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: input scal_adjust = 0, adaptive scale = 7
+Aug  8 09:06:50 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: rx wola para: winlen = 116, incr = 565
+Aug  8 09:06:50 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == CellIdx_{0} Tdd Table Info is {11111111 - 11111133 - 2222}, Cnt_{07020100}
+Aug  8 09:06:50 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell_{0} Set PayloadPcieBuf Start. Info: layer_{1}, bandWidth_{100}, workMode_{1}, carrierNum_{1}, Rb_{273}
+Aug  8 09:06:50 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell_{0} Set PayloadPcieBuf {3}th Complete. Info: Base_0x{12000700}, size_{10120}, num_{4}, flag_{00000000}
+Aug  8 09:06:50 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == CellIdx_{0} Config_req scan {3} normal.
+Aug  8 09:06:50 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell[0] Push_Indication Info: MsgID[3]: msgNum_{1},buf_{0x0323E8A4}, msgLen_{8}, offset_{20}.
+Aug  8 09:06:51 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell[0] Recv Start Req {4} from Mac
+Aug  8 09:06:51 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == [Start_Req]Cell_{0} Push Andes 15 Ecpri Timer Start Event value = 0xae571040.
+Aug  8 09:06:51 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] ==  Cell[0] PHY transits to a new state: 2.
+Aug  8 09:06:51 localhost nrTestMAC[973]: PC802_0 PFI 15 PRINTF: Andes 15 Receive Timer Start Enven , logicCellIndex = 0, cellIdx = 0, spread = 1, fapi_slot_scale = 0.
+Aug  8 09:06:51 localhost nrTestMAC[973]: PC802_0 PFI 15 PRINTF: start wait pp1s sync
+Aug  8 09:06:51 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == [Running State]Cell_{0} Start_{3} timer Info: sfn_{0},slot_{1} ===
+Aug  8 09:06:51 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[0]:  Cell_0     1stID - [-589525] TotalCnt - [0] MaxTA - [0] MinTA - [0]
+Aug  8 09:06:51 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[1]:       MaxRSSI - [0] MinRSSI - [0] MaxTAinS - [0] MinTAinS - [0]
+Aug  8 09:06:51 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[2]:       PASSED  - [0] TotalCnt - [0]
+Aug  8 09:06:51 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUSCH:      Cell_0    CRC-PASSED - [0] TotalCnt - [0]
+Aug  8 09:06:51 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUCCH FMT2: Cell_0    CRC-PASSED - [0] TotalCnt - [0]
+Aug  8 09:06:51 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SRS:      Cell_0   1stID - MaxTA - [0] MinTA - [64] MaxSnr - [0] MinSnr - [255]
+Aug  8 09:06:51 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: FAPI ScanRslt: Cell_0  dlTti - [0], ulTti - [0], txDataTti - [0], ulDci - [0]
+Aug  8 09:06:51 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SSB Info: Cell_0   Recv - [0], DealDone - [0], Copy - [0]
+Aug  8 09:06:51 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Msg time match Info: Copy_pusch_prach_srs - [0 - 0 - 0], msgMiss - [0 - 0]
+Aug  8 09:06:51 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Ctrl Data Msg time : data_alloc_{0}, data_put_{1}, ttiMissing_{1}
+Aug  8 09:06:51 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: ============ !!!  Cell_0 End the uplink report statistics !!! ============
+Aug  8 09:06:51 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: ============ !!! CellIdx_{0} Begin the uplink report statistics !!! ============
+Aug  8 09:06:51 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: gSupperSfnCnt: [9]; gPcieMsgRecvCnt: [140233]; gPcieMsgFreeCnt: [11]; gSiPdschCnt: [0]
+Aug  8 09:07:02 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[0]:  Cell_0     1stID - [-262628] TotalCnt - [0] MaxTA - [0] MinTA - [0]
+Aug  8 09:07:02 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[1]:       MaxRSSI - [0] MinRSSI - [0] MaxTAinS - [0] MinTAinS - [0]
+Aug  8 09:07:02 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[2]:       PASSED  - [0] TotalCnt - [0]
+Aug  8 09:07:02 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUSCH:      Cell_0    CRC-PASSED - [0] TotalCnt - [4096]
+Aug  8 09:07:02 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUCCH FMT2: Cell_0    CRC-PASSED - [17] TotalCnt - [4096]
+Aug  8 09:07:02 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SRS:      Cell_0   1stID - MaxTA - [0] MinTA - [64] MaxSnr - [0] MinSnr - [255]
+Aug  8 09:07:02 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: FAPI ScanRslt: Cell_0  dlTti - [0], ulTti - [0], txDataTti - [0], ulDci - [0]
+Aug  8 09:07:02 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SSB Info: Cell_0   Recv - [2048], DealDone - [2048], Copy - [2048]
+Aug  8 09:07:02 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Msg time match Info: Copy_pusch_prach_srs - [4096 - 1024 - 0], msgMiss - [0 - 0]
+Aug  8 09:07:02 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Ctrl Data Msg time : data_alloc_{4096}, data_put_{4097}, ttiMissing_{1}
+Aug  8 09:07:02 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: ============ !!!  Cell_0 End the uplink report statistics !!! ============
+Aug  8 09:07:02 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: ============ !!! CellIdx_{0} Begin the uplink report statistics !!! ============
+Aug  8 09:07:02 localhost nrTestMAC[973]: PC802_0 PFI 4 PRINTF: gSupperSfnCnt: [10]; gPcieMsgRecvCnt: [160713]; gPcieMsgFreeCnt: [11]; gSiPdschCnt: [0]
+Aug  8 09:07:02 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: DL PCIe Ctrl interval > 530us in last 20 seconds : Count = 10
+Aug  8 09:07:02 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: UL PCIe Ctrl interval > 530us in last 20 seconds : Count = 2
+Aug  8 09:07:04 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell[0] Recv Stop Req {5} from Mac
+Aug  8 09:07:04 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [  EXIT] == Cell{0} Deal Stop_Req done {1}, flag_{0}
+Aug  8 09:07:04 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] ==  Cell[0] PHY transits to a new state: 1.
+Aug  8 09:07:04 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell_{0} Clear MsgInfo_0: msgNum_{3}, type_{1} flag_{35148620}, addr_{0x032cb220}, msgType_{128}
+Aug  8 09:07:04 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell[0] Push_Indication Info: MsgID[6]: msgNum_{1},buf_{0x032468A4}, msgLen_{4}, offset_{16}.
+Aug  8 09:07:04 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [  EXIT] == CellIdx_{0} Cnt_{0}, Payload buf[0]: {0x12000720}
+Aug  8 09:07:04 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell_{0} PlayBack Manager Init Done. {0}
+Aug  8 09:07:04 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [  EXIT] == CellIdx_{0} Clear the remaing_{032468a0 - 12000720} dataBuf_0x{032b5700}, size_{8} End.
+Aug  8 09:07:04 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [  EXIT] == [Stop Indication] Info_[1]: {0x00000004} {33153 - 33153}, buf_{0x00010006}, flag_{00010001} ===
+Aug  8 09:07:04 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [  EXIT] == [Stop Indication] Info_[0]: {0x00000004} {33153 - 33153}, buf_{0x00000006}, flag_{00010000} ===
+Aug  8 09:07:04 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [  EXIT] == Cell_{0} Dl Payload Buf Clear,cnt_{0}, pos_{1}, addr_{314741792}
+Aug  8 09:07:04 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [  EXIT] == Phy Deal the cell_{0} stop_request End. RxBuf_{99466 - 99466} {165775 - 165775} {00000004}
+Aug  8 09:07:04 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [  EXIT] == Andes 1 Receive cell_{0} exiting!!message, now exit. TxBuf_{33153 - 33153} {165789 - 165789} {00010001}
+Aug  8 09:07:04 localhost nrTestMAC[973]: PC802_0 PFI 2 PRINTF: == [  EXIT] == Cell_0 LdpcCrcCounter 0 LdpcCrcTotalCounter 5112 PolarCrcCounter 23 PolarCrcTotalCounter 5112
+Aug  8 09:07:04 localhost nrTestMAC[973]: PC802_0 PFI 2 PRINTF: == [  EXIT] == Cell_0 Prach: preamble multi {0}, preamble single {0}, IotDbgBufIOT {0x88bcbe60} CheckData {0xaa998877}...
+Aug  8 09:07:04 localhost nrTestMAC[973]: PC802_0 PFI 2 PRINTF: == [  EXIT] == Cell_0 F0DecTotalNum_{33152}, F0DecNum_{170}, PrachDecTotalCnt_{8287}, PrachDecCnt_{0 - 8287}...
+Aug  8 09:07:04 localhost nrTestMAC[973]: PC802_0 PFI 2 PRINTF: == [  EXIT] == Cell_0 F2DecTotalNum_{33152}, F2DecNum_{33152}, CheckData_{0x55aa}...
+Aug  8 09:07:04 localhost nrTestMAC[973]: PC802_0 PFI 2 PRINTF: == [  EXIT] == cell_0 is not running status. start dump record data {4}.
+Aug  8 09:07:22 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: DL PCIe Ctrl interval < 470us in last 20 seconds : Count = 1
+Aug  8 09:07:22 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: DL PCIe Ctrl interval > 530us in last 20 seconds : Count = 1
+Aug  8 09:07:22 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: UL PCIe Ctrl interval < 470us in last 20 seconds : Count = 1
+Aug  8 09:07:42 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_driver_worker : 1628 : Info: PCIe driver is living @ cycleL = 2739859711
+Aug  8 09:07:47 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == DbTable Info_0: numTables_{0x00000000}, dBIdx_[0-3]{0x00000000 - 0x00000000 - 0x00000000 - 0x00000000}, offset_{4}
+Aug  8 09:07:47 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell[0] Recv Configure Req {2} from Mac
+Aug  8 09:07:47 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: cellIndex = 0, config = 0, wola winLen = 116, factor = 565, Nfft = 4096
+Aug  8 09:07:47 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: input scal_adjust = 0, adaptive scale = 7
+Aug  8 09:07:47 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: rx wola para: winlen = 116, incr = 565
+Aug  8 09:07:47 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == CellIdx_{0} Tdd Table Info is {11111111 - 11111133 - 2222}, Cnt_{07020100}
+Aug  8 09:07:47 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell_{0} Set PayloadPcieBuf Start. Info: layer_{1}, bandWidth_{100}, workMode_{1}, carrierNum_{1}, Rb_{273}
+Aug  8 09:07:47 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell_{0} Set PayloadPcieBuf {4}th Complete. Info: Base_0x{12000700}, size_{10120}, num_{4}, flag_{00000000}
+Aug  8 09:07:47 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == CellIdx_{0} Config_req scan {4} normal.
+Aug  8 09:07:47 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell[0] Push_Indication Info: MsgID[3]: msgNum_{1},buf_{0x032368A4}, msgLen_{8}, offset_{20}.
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == Cell[0] Recv Start Req {4} from Mac
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == [Start_Req]Cell_{0} Push Andes 15 Ecpri Timer Start Event value = 0xae571040.
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] ==  Cell[0] PHY transits to a new state: 2.
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 15 PRINTF: Andes 15 Receive Timer Start Enven , logicCellIndex = 0, cellIdx = 0, spread = 1, fapi_slot_scale = 0.
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 15 PRINTF: start wait pp1s sync
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_dump_pcie_srv_msg_logs : 365 : Being -- PCIe <-> PHY msg logs : pcie_srv_logs_cnt = 928401
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032CB220 dir_q=0x02 PUT   type= 1, size0=0, SLot_SFN = 0x000000FD mcycle=315927182
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x12000720 dir_q=0x11 GET   type= 0, size0=0, SLot_SFN = 0x000100FD mcycle=316300384
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032468A0 dir_q=0x12 GET   type= 1, size0=0, SLot_SFN = 0x000100FD mcycle=316305201
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x12000720 dir_q=0x11 FREE  type= 0, size0=0, SLot_SFN = 0x000100FD mcycle=316314411
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032468A0 dir_q=0x12 FREE  type= 1, size0=0, SLot_SFN = 0x000100FD mcycle=316315578
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x12C29420 dir_q=0x01 ALLOC type= 0, size0=0, SLot_SFN = 0x000100FD mcycle=316329004
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032D3220 dir_q=0x02 ALLOC type= 2, size0=0, SLot_SFN = 0x000100FD mcycle=316335654
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x12C29420 dir_q=0x01 PUT   type= 0, size0=0, SLot_SFN = 0x000100FD mcycle=316353571
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032D3220 dir_q=0x02 PUT   type= 1, size0=0, SLot_SFN = 0x000100FD mcycle=316354588
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x0322E8A0 dir_q=0x12 GET   type= 2, size0=0, SLot_SFN = 0x000200FD mcycle=316723066
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x0322E8A0 dir_q=0x12 FREE  type= 2, size0=0, SLot_SFN = 0x000200FD mcycle=316730700
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x12C02020 dir_q=0x01 ALLOC type= 0, size0=0, SLot_SFN = 0x000200FD mcycle=316744133
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032C3220 dir_q=0x02 ALLOC type= 2, size0=0, SLot_SFN = 0x000200FD mcycle=316750776
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x12C02020 dir_q=0x01 PUT   type= 0, size0=0, SLot_SFN = 0x000200FD mcycle=316768503
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032C3220 dir_q=0x02 PUT   type= 1, size0=0, SLot_SFN = 0x000200FD mcycle=316769520
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032368A0 dir_q=0x12 GET   type= 2, size0=0, SLot_SFN = 0x000300FD mcycle=317148629
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: == [  EXIT] == [andes0 FIFO CHECK] FIFO_{82} has overflow right now! {0 - 12714617 - 1541168350} slotTime_{0 - 0}
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Dump all sub-fifo inside this priority fifo group
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: QUEUES.FIFO_QUEUE_4N - VALUE: 0x0
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: FIFO 82, push/pop access address = 0x1ff32048
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: CHANNEL.FIFO_OVF - INDEX: 0x1
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: CHANNEL.FIFO_UDF - INDEX: 0x1
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: CHANNEL.FIFO_ENABLE - BIT: 0x1
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: CHANNEL.FIFO_BASE - ADDRESS: 0x314
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: CHANNEL.FIFO_SIZE - COUNT: 0x1
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: CHANNEL.FIFO_READ - PTR: 0x315
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: CHANNEL.FIFO_WRITE - PTR: 0x315
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: CHANNEL.FIFO_FLAGS - OVF: 0x1 UDF: 0x1 EMPTY: 0x0 FULL: 0x1
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Dumping FIFO 82 now, read pointer=3156, write pointer=3156
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: offset: 3152, value=0x80000100
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: offset: 3153, value=0x80000100
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [ MAC_MSG_INFO] == [Running State]Cell_{0} Start_{4} timer Info: sfn_{0},slot_{1} ===
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [  EXIT] == Cell_{0} Pusch indi is error_0. Addr_{0x12000720 - 0x00000000}, size_{0}, crcAddr_{0x032468b0 - 0x00000000}
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: == [  EXIT] == Cell_{0} Pusch indi is error_1. time_{00000000 - 00000001}, msgNum_{0003}, addr_{0x032b6260}, crcFlag_{0}
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: PC802_ul_queue_put_one_buf : 581 : FAIL_PUT: qNo=1 mbuf=0x12000700 state=1 SFN=   0 Slot=   1
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: PC802_dump_pcie_phy_msg_logs : 99 : Being -- PCIe <-> PHY msg logs : pcie_phy_logs_cnt = 928404
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032468A0 dir_q=0x12 PUT   type= 1, size0=0, SLot_SFN = 0x000100FD mcycle=1934309874
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x12000720 dir_q=0x11 PUT   type= 0, size0=0, SLot_SFN = 0x000100FD mcycle=1934310952
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032D3220 dir_q=0x02 GET   type= 1, size0=0, SLot_SFN = 0x000100FD mcycle=1934367921
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032CB220 dir_q=0x02 FREE  type= 1, size0=0, SLot_SFN = 0x000200FD mcycle=1934696622
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x12C02020 dir_q=0x01 FREE  type= 0, size0=0, SLot_SFN = 0x000200FD mcycle=1934697647
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x0323E8A0 dir_q=0x12 ALLOC type= 1, size0=0, SLot_SFN = 0x000200FD mcycle=1934701118
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x12C29420 dir_q=0x01 GET   type= 0, size0=0, SLot_SFN = 0x000200FD mcycle=1934711723
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x0322E8A0 dir_q=0x12 PUT   type= 2, size0=0, SLot_SFN = 0x000200FD mcycle=1934733450
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032C3220 dir_q=0x02 GET   type= 1, size0=0, SLot_SFN = 0x000200FD mcycle=1934781931
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032D3220 dir_q=0x02 FREE  type= 1, size0=0, SLot_SFN = 0x000300FD mcycle=1935121659
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x12C29420 dir_q=0x01 FREE  type= 0, size0=0, SLot_SFN = 0x000300FD mcycle=1935122671
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032468A0 dir_q=0x12 ALLOC type= 1, size0=0, SLot_SFN = 0x000300FD mcycle=1935126110
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x12C02020 dir_q=0x01 GET   type= 0, size0=0, SLot_SFN = 0x000300FD mcycle=1935136993
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032368A0 dir_q=0x12 PUT   type= 2, size0=0, SLot_SFN = 0x000300FD mcycle=1935158629
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032BB220 dir_q=0x02 GET   type= 1, size0=0, SLot_SFN = 0x000300FD mcycle=1935207353
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032C3220 dir_q=0x02 FREE  type= 1, size0=0, SLot_SFN = 0x000400FD mcycle=1935547075
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x12C02020 dir_q=0x01 FREE  type= 0, size0=0, SLot_SFN = 0x000400FD mcycle=1935548079
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x0322E8A0 dir_q=0x12 ALLOC type= 2, size0=0, SLot_SFN = 0x000400FD mcycle=1935551511
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x12C29420 dir_q=0x01 GET   type= 0, size0=0, SLot_SFN = 0x000400FD mcycle=1935562377
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x0323E8A0 dir_q=0x12 PUT   type= 2, size0=0, SLot_SFN = 0x000400FD mcycle=1935584131
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032CB220 dir_q=0x02 GET   type= 1, size0=0, SLot_SFN = 0x000400FD mcycle=1935633055
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032BB220 dir_q=0x02 FREE  type= 1, size0=0, SLot_SFN = 0x000500FD mcycle=1935972173
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x12C29420 dir_q=0x01 FREE  type= 0, size0=0, SLot_SFN = 0x000500FD mcycle=1935973196
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032368A0 dir_q=0x12 ALLOC type= 2, size0=0, SLot_SFN = 0x000500FD mcycle=1935976657
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x12C02020 dir_q=0x01 GET   type= 0, size0=0, SLot_SFN = 0x000500FD mcycle=1935987201
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032468A0 dir_q=0x12 PUT   type= 2, size0=0, SLot_SFN = 0x000500FD mcycle=1936009534
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032D3220 dir_q=0x02 GET   type= 2, size0=0, SLot_SFN = 0x000500FD mcycle=1936032757
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032CB220 dir_q=0x02 FREE  type= 1, size0=0, SLot_SFN = 0x000600FD mcycle=1936396278
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x12C02020 dir_q=0x01 FREE  type= 0, size0=0, SLot_SFN = 0x000600FD mcycle=1936397284
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x0323E8A0 dir_q=0x12 ALLOC type= 2, size0=0, SLot_SFN = 0x000600FD mcycle=1936400726
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x0322E8A0 dir_q=0x12 PUT   type= 2, size0=0, SLot_SFN = 0x000600FD mcycle=1936429870
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032C3220 dir_q=0x02 GET   type= 2, size0=0, SLot_SFN = 0x000600FD mcycle=1936453010
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032D3220 dir_q=0x02 FREE  type= 2, size0=0, SLot_SFN = 0x000700FD mcycle=1936821378
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032468A0 dir_q=0x12 ALLOC type= 2, size0=0, SLot_SFN = 0x000700FD mcycle=1936825342
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x1200A540 dir_q=0x11 ALLOC type= 0, size0=0, SLot_SFN = 0x000700FD mcycle=1936846589
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032368A0 dir_q=0x12 PUT   type= 2, size0=0, SLot_SFN = 0x000700FD mcycle=1936856118
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032BB220 dir_q=0x02 GET   type= 2, size0=0, SLot_SFN = 0x000700FD mcycle=1936879336
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032C3220 dir_q=0x02 FREE  type= 2, size0=0, SLot_SFN = 0x000800FD mcycle=1937246467
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x0322E8A0 dir_q=0x12 ALLOC type= 2, size0=0, SLot_SFN = 0x000800FD mcycle=1937250525
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x12014360 dir_q=0x11 ALLOC type= 0, size0=0, SLot_SFN = 0x000800FD mcycle=1937271373
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x0323E8A0 dir_q=0x12 PUT   type= 2, size0=0, SLot_SFN = 0x000800FD mcycle=1937280993
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032CB220 dir_q=0x02 GET   type= 2, size0=0, SLot_SFN = 0x000800FD mcycle=1937305548
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032BB220 dir_q=0x02 FREE  type= 2, size0=0, SLot_SFN = 0x000900FD mcycle=1937672122
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032368A0 dir_q=0x12 ALLOC type= 2, size0=0, SLot_SFN = 0x000900FD mcycle=1937676132
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032468A0 dir_q=0x12 PUT   type= 2, size0=0, SLot_SFN = 0x000900FD mcycle=1937705785
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032D3220 dir_q=0x02 GET   type= 1, size0=0, SLot_SFN = 0x000900FD mcycle=1937754349
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032CB220 dir_q=0x02 FREE  type= 2, size0=0, SLot_SFN = 0x000A00FD mcycle=1938096514
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x0323E8A0 dir_q=0x12 ALLOC type= 2, size0=0, SLot_SFN = 0x000A00FD mcycle=1938100738
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x12C29420 dir_q=0x01 GET   type= 0, size0=0, SLot_SFN = 0x000A00FD mcycle=1938111315
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x0322E8A0 dir_q=0x12 PUT   type= 1, size0=0, SLot_SFN = 0x000A00FD mcycle=1938133126
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x1200A540 dir_q=0x11 PUT   type= 0, size0=0, SLot_SFN = 0x000A00FD mcycle=1938134316
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032C3220 dir_q=0x02 GET   type= 1, size0=0, SLot_SFN = 0x000A00FD mcycle=1938195273
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032D3220 dir_q=0x02 FREE  type= 1, size0=0, SLot_SFN = 0x000B00FD mcycle=1938522308
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x12C29420 dir_q=0x01 FREE  type= 0, size0=0, SLot_SFN = 0x000B00FD mcycle=1938523305
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032468A0 dir_q=0x12 ALLOC type= 2, size0=0, SLot_SFN = 0x000B00FD mcycle=1938526993
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x12C02020 dir_q=0x01 GET   type= 0, size0=0, SLot_SFN = 0x000B00FD mcycle=1938537669
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032368A0 dir_q=0x12 PUT   type= 1, size0=0, SLot_SFN = 0x000B00FD mcycle=1938560131
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x12014360 dir_q=0x11 PUT   type= 0, size0=0, SLot_SFN = 0x000B00FD mcycle=1938561238
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032BB220 dir_q=0x02 GET   type= 1, size0=0, SLot_SFN = 0x000B00FD mcycle=1938622306
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032C3220 dir_q=0x02 FREE  type= 1, size0=0, SLot_SFN = 0x000C00FD mcycle=1938947377
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x12C02020 dir_q=0x01 FREE  type= 0, size0=0, SLot_SFN = 0x000C00FD mcycle=1938948402
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x0322E8A0 dir_q=0x12 ALLOC type= 1, size0=0, SLot_SFN = 0x000C00FD mcycle=1938951832
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x12C29420 dir_q=0x01 GET   type= 0, size0=0, SLot_SFN = 0x000C00FD mcycle=1938962392
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x0323E8A0 dir_q=0x12 PUT   type= 2, size0=0, SLot_SFN = 0x000C00FD mcycle=1938984117
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032CB220 dir_q=0x02 GET   type= 1, size0=0, SLot_SFN = 0x000C00FD mcycle=1939032833
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032BB220 dir_q=0x02 FREE  type= 1, size0=0, SLot_SFN = 0x000D00FD mcycle=1939371390
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x12C29420 dir_q=0x01 FREE  type= 0, size0=0, SLot_SFN = 0x000D00FD mcycle=1939372385
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032368A0 dir_q=0x12 ALLOC type= 1, size0=0, SLot_SFN = 0x000D00FD mcycle=1939375833
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x12C02020 dir_q=0x01 GET   type= 0, size0=0, SLot_SFN = 0x000D00FD mcycle=1939386548
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032468A0 dir_q=0x12 PUT   type= 2, size0=0, SLot_SFN = 0x000D00FD mcycle=1939408208
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032D3220 dir_q=0x02 GET   type= 1, size0=0, SLot_SFN = 0x000D00FD mcycle=1939456953
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032CB220 dir_q=0x02 FREE  type= 1, size0=0, SLot_SFN = 0x000E00FD mcycle=1939797284
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x12C02020 dir_q=0x01 FREE  type= 0, size0=0, SLot_SFN = 0x000E00FD mcycle=1939798290
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x0323E8A0 dir_q=0x12 ALLOC type= 2, size0=0, SLot_SFN = 0x000E00FD mcycle=1939801738
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x12C29420 dir_q=0x01 GET   type= 0, size0=0, SLot_SFN = 0x000E00FD mcycle=1939812586
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x0322E8A0 dir_q=0x12 PUT   type= 2, size0=0, SLot_SFN = 0x000E00FD mcycle=1939834714
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032C3220 dir_q=0x02 GET   type= 1, size0=0, SLot_SFN = 0x000E00FD mcycle=1939884754
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032D3220 dir_q=0x02 FREE  type= 1, size0=0, SLot_SFN = 0x000F00FD mcycle=1940221760
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x12C29420 dir_q=0x01 FREE  type= 0, size0=0, SLot_SFN = 0x000F00FD mcycle=1940222761
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032468A0 dir_q=0x12 ALLOC type= 2, size0=0, SLot_SFN = 0x000F00FD mcycle=1940226209
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x12C02020 dir_q=0x01 GET   type= 0, size0=0, SLot_SFN = 0x000F00FD mcycle=1940236916
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032368A0 dir_q=0x12 PUT   type= 2, size0=0, SLot_SFN = 0x000F00FD mcycle=1940259147
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032BB220 dir_q=0x02 GET   type= 2, size0=0, SLot_SFN = 0x000F00FD mcycle=1940282610
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032C3220 dir_q=0x02 FREE  type= 1, size0=0, SLot_SFN = 0x001000FD mcycle=1940646891
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x12C02020 dir_q=0x01 FREE  type= 0, size0=0, SLot_SFN = 0x001000FD mcycle=1940647898
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x0322E8A0 dir_q=0x12 ALLOC type= 2, size0=0, SLot_SFN = 0x001000FD mcycle=1940651355
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x0323E8A0 dir_q=0x12 PUT   type= 2, size0=0, SLot_SFN = 0x001000FD mcycle=1940681173
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032CB220 dir_q=0x02 GET   type= 2, size0=0, SLot_SFN = 0x001000FD mcycle=1940704280
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032BB220 dir_q=0x02 FREE  type= 2, size0=0, SLot_SFN = 0x001100FD mcycle=1941071999
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032368A0 dir_q=0x12 ALLOC type= 2, size0=0, SLot_SFN = 0x001100FD mcycle=1941075947
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x1201E180 dir_q=0x11 ALLOC type= 0, size0=0, SLot_SFN = 0x001100FD mcycle=1941097269
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032468A0 dir_q=0x12 PUT   type= 2, size0=0, SLot_SFN = 0x001100FD mcycle=1941106838
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032D3220 dir_q=0x02 GET   type= 2, size0=0, SLot_SFN = 0x001100FD mcycle=1941130100
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032CB220 dir_q=0x02 FREE  type= 2, size0=0, SLot_SFN = 0x001200FD mcycle=1941497151
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x0323E8A0 dir_q=0x12 ALLOC type= 2, size0=0, SLot_SFN = 0x001200FD mcycle=1941501247
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x12000720 dir_q=0x11 ALLOC type= 0, size0=0, SLot_SFN = 0x001200FD mcycle=1941522415
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x0322E8A0 dir_q=0x12 PUT   type= 2, size0=0, SLot_SFN = 0x001200FD mcycle=1941532009
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032C3220 dir_q=0x02 GET   type= 2, size0=0, SLot_SFN = 0x001200FD mcycle=1941555162
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032D3220 dir_q=0x02 FREE  type= 2, size0=0, SLot_SFN = 0x001300FD mcycle=1941921208
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032468A0 dir_q=0x12 ALLOC type= 2, size0=0, SLot_SFN = 0x001300FD mcycle=1941925223
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032368A0 dir_q=0x12 PUT   type= 2, size0=0, SLot_SFN = 0x001300FD mcycle=1941954898
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032BB220 dir_q=0x02 GET   type= 1, size0=0, SLot_SFN = 0x001300FD mcycle=1942003491
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032C3220 dir_q=0x02 FREE  type= 2, size0=0, SLot_SFN = 0x000000FE mcycle=1942346363
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x0322E8A0 dir_q=0x12 ALLOC type= 2, size0=0, SLot_SFN = 0x000000FE mcycle=1942350594
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x12C29420 dir_q=0x01 GET   type= 0, size0=0, SLot_SFN = 0x000000FE mcycle=1942361072
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x0323E8A0 dir_q=0x12 PUT   type= 1, size0=0, SLot_SFN = 0x000000FE mcycle=1942383658
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x1201E180 dir_q=0x11 PUT   type= 0, size0=0, SLot_SFN = 0x000000FE mcycle=1942384804
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032CB220 dir_q=0x02 GET   type= 1, size0=0, SLot_SFN = 0x000000FE mcycle=1942445476
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032D3220 dir_q=0x02 GET   type= 2, size0=0, SLot_SFN = 0x000000FE mcycle=1942465958
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032CB220 dir_q=0x02 FREE  type= 1, size0=0, SLot_SFN = 0x000000FE mcycle=1942478327
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x12C02020 dir_q=0x01 GET   type= 0, size0=0, SLot_SFN = 0x000000FE mcycle=1942478985
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x12C02020 dir_q=0x01 FREE  type= 0, size0=0, SLot_SFN = 0x000000FE mcycle=1942479408
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032D3220 dir_q=0x02 FREE  type= 2, size0=0, SLot_SFN = 0x000000FE mcycle=1942480612
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032468A0 dir_q=0x12 PUT   type= 1, size0=0, SLot_SFN = 0x000000FE mcycle=1942499948
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x12000720 dir_q=0x11 PUT   type= 0, size0=0, SLot_SFN = 0x000000FE mcycle=1942501273
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x0322E8A0 dir_q=0x12 PUT   type= 2, size0=1, SLot_SFN = 0x000000FE mcycle=1942503490
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032BB220 dir_q=0x02 FREE  type= 1, size0=0, SLot_SFN = 0x000000FE mcycle=1942505285
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x12C29420 dir_q=0x01 FREE  type= 0, size0=0, SLot_SFN = 0x000000FE mcycle=1942506170
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032C3220 dir_q=0x02 GET   type= 2, size0=0, SLot_SFN = 0x000000FE mcycle=3641948990
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032C3220 dir_q=0x02 FREE  type= 2, size0=0, SLot_SFN = 0x00000000 mcycle=3643042284
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032368A0 dir_q=0x12 ALLOC type= 2, size0=0, SLot_SFN = 0x00000000 mcycle=3643044542
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032368A0 dir_q=0x12 PUT   type= 2, size0=0, SLot_SFN = 0x00000000 mcycle=3643050296
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032CB220 dir_q=0x02 GET   type= 2, size0=0, SLot_SFN = 0x00000000 mcycle=197190624
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x0323E8A0 dir_q=0x12 ALLOC type= 1, size0=0, SLot_SFN = 0x00000000 mcycle=197198499
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032468A0 dir_q=0x12 ALLOC type= 1, size0=0, SLot_SFN = 0x00000000 mcycle=197199231
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x032CB220 dir_q=0x02 FREE  type= 2, size0=0, SLot_SFN = 0x00000000 mcycle=197202919
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x0322E8A0 dir_q=0x12 ALLOC type= 2, size0=1, SLot_SFN = 0x00010000 mcycle=874943093
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: msg=0x0323E8A0 dir_q=0x12 PUT   type= 2, size0=0, SLot_SFN = 0x00010000 mcycle=874952919
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 1 PRINTF: PC802_dump_pcie_phy_msg_logs : 112 : End  --- PCIe <-> PHY msg logs !
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[0]:  Cell_0     1stID - [-65309] TotalCnt - [0] MaxTA - [0] MinTA - [0]
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[1]:       MaxRSSI - [0] MinRSSI - [0] MaxTAinS - [0] MinTAinS - [0]
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[2]:       PASSED  - [0] TotalCnt - [0]
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUSCH:      Cell_0    CRC-PASSED - [0] TotalCnt - [0]
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUCCH FMT2: Cell_0    CRC-PASSED - [0] TotalCnt - [0]
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SRS:      Cell_0   1stID - MaxTA - [0] MinTA - [64] MaxSnr - [0] MinSnr - [255]
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: FAPI ScanRslt: Cell_0  dlTti - [0], ulTti - [0], txDataTti - [0], ulDci - [0]
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SSB Info: Cell_0   Recv - [0], DealDone - [0], Copy - [0]
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Msg time match Info: Copy_pusch_prach_srs - [0 - 0 - 0], msgMiss - [0 - 0]
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Ctrl Data Msg time : data_alloc_{0}, data_put_{1}, ttiMissing_{1}
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: ============ !!!  Cell_0 End the uplink report statistics !!! ============
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: == [  EXIT] == [andes0 FIFO CHECK] FIFO_{19} has overflow right now! {0 - 12714811 - 116179609} slotTime_{0 - 0}
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Dump all sub-fifo inside this priority fifo group
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: QUEUES.FIFO_QUEUE_4N - VALUE: 0x0
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: FIFO 19, push/pop access address = 0x1ff3004c
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: CHANNEL.FIFO_OVF - INDEX: 0x0
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: CHANNEL.FIFO_UDF - INDEX: 0x1
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: CHANNEL.FIFO_ENABLE - BIT: 0x1
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: CHANNEL.FIFO_BASE - ADDRESS: 0x254
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: CHANNEL.FIFO_SIZE - COUNT: 0x1
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: CHANNEL.FIFO_READ - PTR: 0x254
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: CHANNEL.FIFO_WRITE - PTR: 0x254
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: CHANNEL.FIFO_FLAGS - OVF: 0x1 UDF: 0x1 EMPTY: 0x0 FULL: 0x1
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: Dumping FIFO 19 now, read pointer=2384, write pointer=2384
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: offset: 2384, value=0x40000100
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: offset: 2385, value=0x40000100
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032368A0 dir_q=0x12 FREE  type= 2, size0=0, SLot_SFN = 0x000300FD mcycle=317156240
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x12C29420 dir_q=0x01 ALLOC type= 0, size0=0, SLot_SFN = 0x000300FD mcycle=317169599
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032BB220 dir_q=0x02 ALLOC type= 1, size0=0, SLot_SFN = 0x000300FD mcycle=317176250
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x12C29420 dir_q=0x01 PUT   type= 0, size0=0, SLot_SFN = 0x000300FD mcycle=317194178
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032BB220 dir_q=0x02 PUT   type= 1, size0=0, SLot_SFN = 0x000300FD mcycle=317195192
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x0323E8A0 dir_q=0x12 GET   type= 2, size0=0, SLot_SFN = 0x000400FD mcycle=317574333
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x0323E8A0 dir_q=0x12 FREE  type= 2, size0=0, SLot_SFN = 0x000400FD mcycle=317581990
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x12C02020 dir_q=0x01 ALLOC type= 0, size0=0, SLot_SFN = 0x000400FD mcycle=317595467
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032CB220 dir_q=0x02 ALLOC type= 1, size0=0, SLot_SFN = 0x000400FD mcycle=317602100
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x12C02020 dir_q=0x01 PUT   type= 0, size0=0, SLot_SFN = 0x000400FD mcycle=317619783
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032CB220 dir_q=0x02 PUT   type= 1, size0=0, SLot_SFN = 0x000400FD mcycle=317620797
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032468A0 dir_q=0x12 GET   type= 2, size0=0, SLot_SFN = 0x000500FD mcycle=317999058
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032468A0 dir_q=0x12 FREE  type= 2, size0=0, SLot_SFN = 0x000500FD mcycle=318006722
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032D3220 dir_q=0x02 ALLOC type= 1, size0=0, SLot_SFN = 0x000500FD mcycle=318010407
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032D3220 dir_q=0x02 PUT   type= 2, size0=0, SLot_SFN = 0x000500FD mcycle=318020002
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x0322E8A0 dir_q=0x12 GET   type= 2, size0=0, SLot_SFN = 0x000600FD mcycle=318419431
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x0322E8A0 dir_q=0x12 FREE  type= 2, size0=0, SLot_SFN = 0x000600FD mcycle=318427060
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032C3220 dir_q=0x02 ALLOC type= 1, size0=0, SLot_SFN = 0x000600FD mcycle=318430727
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032C3220 dir_q=0x02 PUT   type= 2, size0=0, SLot_SFN = 0x000600FD mcycle=318440289
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032368A0 dir_q=0x12 GET   type= 2, size0=0, SLot_SFN = 0x000700FD mcycle=318846207
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032368A0 dir_q=0x12 FREE  type= 2, size0=0, SLot_SFN = 0x000700FD mcycle=318853834
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032BB220 dir_q=0x02 ALLOC type= 1, size0=0, SLot_SFN = 0x000700FD mcycle=318857537
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032BB220 dir_q=0x02 PUT   type= 2, size0=0, SLot_SFN = 0x000700FD mcycle=318867121
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x0323E8A0 dir_q=0x12 GET   type= 2, size0=0, SLot_SFN = 0x000800FD mcycle=319271419
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x0323E8A0 dir_q=0x12 FREE  type= 2, size0=0, SLot_SFN = 0x000800FD mcycle=319279041
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032CB220 dir_q=0x02 ALLOC type= 1, size0=0, SLot_SFN = 0x000800FD mcycle=319282707
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032CB220 dir_q=0x02 PUT   type= 2, size0=0, SLot_SFN = 0x000800FD mcycle=319292324
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032468A0 dir_q=0x12 GET   type= 2, size0=0, SLot_SFN = 0x000900FD mcycle=319695058
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032468A0 dir_q=0x12 FREE  type= 2, size0=0, SLot_SFN = 0x000900FD mcycle=319702685
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x12C29420 dir_q=0x01 ALLOC type= 0, size0=0, SLot_SFN = 0x000900FD mcycle=319716104
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032D3220 dir_q=0x02 ALLOC type= 2, size0=0, SLot_SFN = 0x000900FD mcycle=319722742
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x12C29420 dir_q=0x01 PUT   type= 0, size0=0, SLot_SFN = 0x000900FD mcycle=319740567
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032D3220 dir_q=0x02 PUT   type= 1, size0=0, SLot_SFN = 0x000900FD mcycle=319741584
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x0322E8A0 dir_q=0x12 GET   type= 1, size0=0, SLot_SFN = 0x000A00FD mcycle=320123046
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x0322E8A0 dir_q=0x12 FREE  type= 1, size0=0, SLot_SFN = 0x000A00FD mcycle=320130651
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x1200A540 dir_q=0x11 GET   type= 0, size0=0, SLot_SFN = 0x000A00FD mcycle=320131403
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x1200A540 dir_q=0x11 FREE  type= 0, size0=0, SLot_SFN = 0x000A00FD mcycle=320144002
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x12C02020 dir_q=0x01 ALLOC type= 0, size0=0, SLot_SFN = 0x000A00FD mcycle=320157395
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032C3220 dir_q=0x02 ALLOC type= 2, size0=0, SLot_SFN = 0x000A00FD mcycle=320164028
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x12C02020 dir_q=0x01 PUT   type= 0, size0=0, SLot_SFN = 0x000A00FD mcycle=320181695
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032C3220 dir_q=0x02 PUT   type= 1, size0=0, SLot_SFN = 0x000A00FD mcycle=320182718
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032368A0 dir_q=0x12 GET   type= 1, size0=0, SLot_SFN = 0x000B00FD mcycle=320549733
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032368A0 dir_q=0x12 FREE  type= 1, size0=0, SLot_SFN = 0x000B00FD mcycle=320557454
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x12014360 dir_q=0x11 GET   type= 0, size0=0, SLot_SFN = 0x000B00FD mcycle=320558206
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x12014360 dir_q=0x11 FREE  type= 0, size0=0, SLot_SFN = 0x000B00FD mcycle=320570806
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x12C29420 dir_q=0x01 ALLOC type= 0, size0=0, SLot_SFN = 0x000B00FD mcycle=320584148
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032BB220 dir_q=0x02 ALLOC type= 2, size0=0, SLot_SFN = 0x000B00FD mcycle=320590793
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x12C29420 dir_q=0x01 PUT   type= 0, size0=0, SLot_SFN = 0x000B00FD mcycle=320608551
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032BB220 dir_q=0x02 PUT   type= 1, size0=0, SLot_SFN = 0x000B00FD mcycle=320609562
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x0323E8A0 dir_q=0x12 GET   type= 2, size0=0, SLot_SFN = 0x000C00FD mcycle=320973982
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x0323E8A0 dir_q=0x12 FREE  type= 2, size0=0, SLot_SFN = 0x000C00FD mcycle=320981880
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x12C02020 dir_q=0x01 ALLOC type= 0, size0=0, SLot_SFN = 0x000C00FD mcycle=320995277
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032CB220 dir_q=0x02 ALLOC type= 2, size0=0, SLot_SFN = 0x000C00FD mcycle=321001922
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x12C02020 dir_q=0x01 PUT   type= 0, size0=0, SLot_SFN = 0x000C00FD mcycle=321019643
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032CB220 dir_q=0x02 PUT   type= 1, size0=0, SLot_SFN = 0x000C00FD mcycle=321020654
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032468A0 dir_q=0x12 GET   type= 2, size0=0, SLot_SFN = 0x000D00FD mcycle=321397255
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032468A0 dir_q=0x12 FREE  type= 2, size0=0, SLot_SFN = 0x000D00FD mcycle=321404913
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x12C29420 dir_q=0x01 ALLOC type= 0, size0=0, SLot_SFN = 0x000D00FD mcycle=321418303
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032D3220 dir_q=0x02 ALLOC type= 1, size0=0, SLot_SFN = 0x000D00FD mcycle=321424958
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x12C29420 dir_q=0x01 PUT   type= 0, size0=0, SLot_SFN = 0x000D00FD mcycle=321442675
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032D3220 dir_q=0x02 PUT   type= 1, size0=0, SLot_SFN = 0x000D00FD mcycle=321443686
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x0322E8A0 dir_q=0x12 GET   type= 2, size0=0, SLot_SFN = 0x000E00FD mcycle=321825100
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x0322E8A0 dir_q=0x12 FREE  type= 2, size0=0, SLot_SFN = 0x000E00FD mcycle=321832722
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x12C02020 dir_q=0x01 ALLOC type= 0, size0=0, SLot_SFN = 0x000E00FD mcycle=321846190
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032C3220 dir_q=0x02 ALLOC type= 1, size0=0, SLot_SFN = 0x000E00FD mcycle=321852834
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x12C02020 dir_q=0x01 PUT   type= 0, size0=0, SLot_SFN = 0x000E00FD mcycle=321870501
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032C3220 dir_q=0x02 PUT   type= 1, size0=0, SLot_SFN = 0x000E00FD mcycle=321871511
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032368A0 dir_q=0x12 GET   type= 2, size0=0, SLot_SFN = 0x000F00FD mcycle=322249467
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032368A0 dir_q=0x12 FREE  type= 2, size0=0, SLot_SFN = 0x000F00FD mcycle=322257155
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032BB220 dir_q=0x02 ALLOC type= 1, size0=0, SLot_SFN = 0x000F00FD mcycle=322260857
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032BB220 dir_q=0x02 PUT   type= 2, size0=0, SLot_SFN = 0x000F00FD mcycle=322270466
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x0323E8A0 dir_q=0x12 GET   type= 2, size0=0, SLot_SFN = 0x001000FD mcycle=322670715
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x0323E8A0 dir_q=0x12 FREE  type= 2, size0=0, SLot_SFN = 0x001000FD mcycle=322678436
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032CB220 dir_q=0x02 ALLOC type= 1, size0=0, SLot_SFN = 0x001000FD mcycle=322682098
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032CB220 dir_q=0x02 PUT   type= 2, size0=0, SLot_SFN = 0x001000FD mcycle=322691658
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032468A0 dir_q=0x12 GET   type= 2, size0=0, SLot_SFN = 0x001100FD mcycle=323096826
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032468A0 dir_q=0x12 FREE  type= 2, size0=0, SLot_SFN = 0x001100FD mcycle=323104455
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032D3220 dir_q=0x02 ALLOC type= 1, size0=0, SLot_SFN = 0x001100FD mcycle=323108117
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032D3220 dir_q=0x02 PUT   type= 2, size0=0, SLot_SFN = 0x001100FD mcycle=323117668
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x0322E8A0 dir_q=0x12 GET   type= 2, size0=0, SLot_SFN = 0x001200FD mcycle=323521214
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x0322E8A0 dir_q=0x12 FREE  type= 2, size0=0, SLot_SFN = 0x001200FD mcycle=323528833
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032C3220 dir_q=0x02 ALLOC type= 1, size0=0, SLot_SFN = 0x001200FD mcycle=323532534
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032C3220 dir_q=0x02 PUT   type= 2, size0=0, SLot_SFN = 0x001200FD mcycle=323542123
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032368A0 dir_q=0x12 GET   type= 2, size0=0, SLot_SFN = 0x001300FD mcycle=323944021
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032368A0 dir_q=0x12 FREE  type= 2, size0=0, SLot_SFN = 0x001300FD mcycle=323951668
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x12C29420 dir_q=0x01 ALLOC type= 0, size0=0, SLot_SFN = 0x001300FD mcycle=323965052
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032BB220 dir_q=0x02 ALLOC type= 2, size0=0, SLot_SFN = 0x001300FD mcycle=323971714
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x12C29420 dir_q=0x01 PUT   type= 0, size0=0, SLot_SFN = 0x001300FD mcycle=323989610
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032BB220 dir_q=0x02 PUT   type= 1, size0=0, SLot_SFN = 0x001300FD mcycle=323990625
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x0323E8A0 dir_q=0x12 GET   type= 1, size0=0, SLot_SFN = 0x000000FE mcycle=324372867
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x0323E8A0 dir_q=0x12 FREE  type= 1, size0=0, SLot_SFN = 0x000000FE mcycle=324380489
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x1201E180 dir_q=0x11 GET   type= 0, size0=0, SLot_SFN = 0x000000FE mcycle=324381301
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x1201E180 dir_q=0x11 FREE  type= 0, size0=0, SLot_SFN = 0x000000FE mcycle=324394013
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x12C02020 dir_q=0x01 ALLOC type= 0, size0=0, SLot_SFN = 0x000000FE mcycle=324407440
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032CB220 dir_q=0x02 ALLOC type= 2, size0=0, SLot_SFN = 0x000000FE mcycle=324415753
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x12C02020 dir_q=0x01 PUT   type= 0, size0=0, SLot_SFN = 0x000000FE mcycle=324431804
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032CB220 dir_q=0x02 PUT   type= 1, size0=0, SLot_SFN = 0x000000FE mcycle=324432829
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032D3220 dir_q=0x02 ALLOC type= 2, size0=0, SLot_SFN = 0x000000FE mcycle=324443304
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032D3220 dir_q=0x02 PUT   type= 2, size0=0, SLot_SFN = 0x000000FE mcycle=324452868
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032468A0 dir_q=0x12 GET   type= 1, size0=0, SLot_SFN = 0x000000FE mcycle=324489945
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032468A0 dir_q=0x12 FREE  type= 1, size0=0, SLot_SFN = 0x000000FE mcycle=324497598
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x12000720 dir_q=0x11 GET   type= 0, size0=0, SLot_SFN = 0x000000FE mcycle=324498351
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x0322E8A0 dir_q=0x12 GET   type= 2, size0=1, SLot_SFN = 0x000000FE mcycle=324504044
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x0322E8A0 dir_q=0x12 FREE  type= 2, size0=1, SLot_SFN = 0x000000FE mcycle=324504264
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x12000720 dir_q=0x11 FREE  type= 0, size0=0, SLot_SFN = 0x000000FE mcycle=324506715
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032C3220 dir_q=0x02 ALLOC type= 2, size0=0, SLot_SFN = 0x000000FE mcycle=2023926364
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032C3220 dir_q=0x02 PUT   type= 2, size0=0, SLot_SFN = 0x000000FE mcycle=2023935950
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032368A0 dir_q=0x12 GET   type= 2, size0=0, SLot_SFN = 0x00000000 mcycle=2025039873
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032368A0 dir_q=0x12 FREE  type= 2, size0=0, SLot_SFN = 0x00000000 mcycle=2025047809
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032CB220 dir_q=0x02 ALLOC type= 1, size0=0, SLot_SFN = 0x00000000 mcycle=2874135757
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x032CB220 dir_q=0x02 PUT   type= 2, size0=0, SLot_SFN = 0x00000000 mcycle=2874145366
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: msg=0x0323E8A0 dir_q=0x12 GET   type= 2, size0=0, SLot_SFN = 0x00010000 mcycle=3551909622
+Aug  8 09:07:48 localhost nrTestMAC[973]: PC802_0 PFI 0 PRINTF: PC802_dump_pcie_srv_msg_logs : 376 : End  --- PCIe <-> PHY msg logs !
+Aug  8 09:07:59 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[0]:  Cell_0     1stID - [-65309] TotalCnt - [0] MaxTA - [0] MinTA - [0]
+Aug  8 09:07:59 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[1]:       MaxRSSI - [0] MinRSSI - [0] MaxTAinS - [0] MinTAinS - [0]
+Aug  8 09:07:59 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[2]:       PASSED  - [0] TotalCnt - [0]
+Aug  8 09:07:59 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUSCH:      Cell_0    CRC-PASSED - [0] TotalCnt - [4551]
+Aug  8 09:07:59 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUCCH FMT2: Cell_0    CRC-PASSED - [1024] TotalCnt - [1706]
+Aug  8 09:07:59 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SRS:      Cell_0   1stID - MaxTA - [0] MinTA - [64] MaxSnr - [0] MinSnr - [255]
+Aug  8 09:07:59 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: FAPI ScanRslt: Cell_0  dlTti - [0], ulTti - [0], txDataTti - [0], ulDci - [0]
+Aug  8 09:07:59 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SSB Info: Cell_0   Recv - [0], DealDone - [0], Copy - [0]
+Aug  8 09:07:59 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Msg time match Info: Copy_pusch_prach_srs - [0 - 0 - 0], msgMiss - [0 - 0]
+Aug  8 09:07:59 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Ctrl Data Msg time : data_alloc_{0}, data_put_{1}, ttiMissing_{1}
+Aug  8 09:07:59 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: ============ !!!  Cell_0 End the uplink report statistics !!! ============
+Aug  8 09:08:09 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[0]:  Cell_0     1stID - [-65309] TotalCnt - [0] MaxTA - [0] MinTA - [0]
+Aug  8 09:08:09 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[1]:       MaxRSSI - [0] MinRSSI - [0] MaxTAinS - [0] MinTAinS - [0]
+Aug  8 09:08:09 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[2]:       PASSED  - [0] TotalCnt - [0]
+Aug  8 09:08:09 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUSCH:      Cell_0    CRC-PASSED - [0] TotalCnt - [4551]
+Aug  8 09:08:09 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUCCH FMT2: Cell_0    CRC-PASSED - [1028] TotalCnt - [1707]
+Aug  8 09:08:09 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SRS:      Cell_0   1stID - MaxTA - [0] MinTA - [64] MaxSnr - [0] MinSnr - [255]
+Aug  8 09:08:09 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: FAPI ScanRslt: Cell_0  dlTti - [0], ulTti - [0], txDataTti - [0], ulDci - [0]
+Aug  8 09:08:09 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SSB Info: Cell_0   Recv - [0], DealDone - [0], Copy - [0]
+Aug  8 09:08:09 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Msg time match Info: Copy_pusch_prach_srs - [0 - 0 - 0], msgMiss - [0 - 0]
+Aug  8 09:08:09 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Ctrl Data Msg time : data_alloc_{0}, data_put_{1}, ttiMissing_{1}
+Aug  8 09:08:09 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: ============ !!!  Cell_0 End the uplink report statistics !!! ============
+Aug  8 09:08:19 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[0]:  Cell_0     1stID - [-65309] TotalCnt - [0] MaxTA - [0] MinTA - [0]
+Aug  8 09:08:19 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[1]:       MaxRSSI - [0] MinRSSI - [0] MaxTAinS - [0] MinTAinS - [0]
+Aug  8 09:08:19 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[2]:       PASSED  - [0] TotalCnt - [0]
+Aug  8 09:08:19 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUSCH:      Cell_0    CRC-PASSED - [0] TotalCnt - [4551]
+Aug  8 09:08:19 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUCCH FMT2: Cell_0    CRC-PASSED - [1024] TotalCnt - [1707]
+Aug  8 09:08:19 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SRS:      Cell_0   1stID - MaxTA - [0] MinTA - [64] MaxSnr - [0] MinSnr - [255]
+Aug  8 09:08:19 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: FAPI ScanRslt: Cell_0  dlTti - [0], ulTti - [0], txDataTti - [0], ulDci - [0]
+Aug  8 09:08:19 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SSB Info: Cell_0   Recv - [0], DealDone - [0], Copy - [0]
+Aug  8 09:08:19 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Msg time match Info: Copy_pusch_prach_srs - [0 - 0 - 0], msgMiss - [0 - 0]
+Aug  8 09:08:19 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Ctrl Data Msg time : data_alloc_{0}, data_put_{1}, ttiMissing_{1}
+Aug  8 09:08:19 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: ============ !!!  Cell_0 End the uplink report statistics !!! ============
+Aug  8 09:08:29 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[0]:  Cell_0     1stID - [-65309] TotalCnt - [0] MaxTA - [0] MinTA - [0]
+Aug  8 09:08:29 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[1]:       MaxRSSI - [0] MinRSSI - [0] MaxTAinS - [0] MinTAinS - [0]
+Aug  8 09:08:29 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[2]:       PASSED  - [0] TotalCnt - [0]
+Aug  8 09:08:29 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUSCH:      Cell_0    CRC-PASSED - [0] TotalCnt - [4551]
+Aug  8 09:08:29 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUCCH FMT2: Cell_0    CRC-PASSED - [1028] TotalCnt - [1706]
+Aug  8 09:08:29 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SRS:      Cell_0   1stID - MaxTA - [0] MinTA - [64] MaxSnr - [0] MinSnr - [255]
+Aug  8 09:08:29 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: FAPI ScanRslt: Cell_0  dlTti - [0], ulTti - [0], txDataTti - [0], ulDci - [0]
+Aug  8 09:08:29 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SSB Info: Cell_0   Recv - [0], DealDone - [0], Copy - [0]
+Aug  8 09:08:29 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Msg time match Info: Copy_pusch_prach_srs - [0 - 0 - 0], msgMiss - [0 - 0]
+Aug  8 09:08:29 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Ctrl Data Msg time : data_alloc_{0}, data_put_{1}, ttiMissing_{1}
+Aug  8 09:08:29 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: ============ !!!  Cell_0 End the uplink report statistics !!! ============
+Aug  8 09:08:40 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[0]:  Cell_0     1stID - [-65309] TotalCnt - [0] MaxTA - [0] MinTA - [0]
+Aug  8 09:08:40 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[1]:       MaxRSSI - [0] MinRSSI - [0] MaxTAinS - [0] MinTAinS - [0]
+Aug  8 09:08:40 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[2]:       PASSED  - [0] TotalCnt - [0]
+Aug  8 09:08:40 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUSCH:      Cell_0    CRC-PASSED - [0] TotalCnt - [4552]
+Aug  8 09:08:40 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUCCH FMT2: Cell_0    CRC-PASSED - [1029] TotalCnt - [1707]
+Aug  8 09:08:40 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SRS:      Cell_0   1stID - MaxTA - [0] MinTA - [64] MaxSnr - [0] MinSnr - [255]
+Aug  8 09:08:40 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: FAPI ScanRslt: Cell_0  dlTti - [0], ulTti - [0], txDataTti - [0], ulDci - [0]
+Aug  8 09:08:40 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SSB Info: Cell_0   Recv - [0], DealDone - [0], Copy - [0]
+Aug  8 09:08:40 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Msg time match Info: Copy_pusch_prach_srs - [0 - 0 - 0], msgMiss - [0 - 0]
+Aug  8 09:08:40 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Ctrl Data Msg time : data_alloc_{0}, data_put_{1}, ttiMissing_{1}
+Aug  8 09:08:40 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: ============ !!!  Cell_0 End the uplink report statistics !!! ============
+Aug  8 09:08:50 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[0]:  Cell_0     1stID - [-65309] TotalCnt - [0] MaxTA - [0] MinTA - [0]
+Aug  8 09:08:50 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[1]:       MaxRSSI - [0] MinRSSI - [0] MaxTAinS - [0] MinTAinS - [0]
+Aug  8 09:08:50 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[2]:       PASSED  - [0] TotalCnt - [0]
+Aug  8 09:08:50 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUSCH:      Cell_0    CRC-PASSED - [0] TotalCnt - [4551]
+Aug  8 09:08:50 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUCCH FMT2: Cell_0    CRC-PASSED - [1025] TotalCnt - [1707]
+Aug  8 09:08:50 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SRS:      Cell_0   1stID - MaxTA - [0] MinTA - [64] MaxSnr - [0] MinSnr - [255]
+Aug  8 09:08:50 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: FAPI ScanRslt: Cell_0  dlTti - [0], ulTti - [0], txDataTti - [0], ulDci - [0]
+Aug  8 09:08:50 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SSB Info: Cell_0   Recv - [0], DealDone - [0], Copy - [0]
+Aug  8 09:08:50 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Msg time match Info: Copy_pusch_prach_srs - [0 - 0 - 0], msgMiss - [0 - 0]
+Aug  8 09:08:50 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Ctrl Data Msg time : data_alloc_{0}, data_put_{1}, ttiMissing_{1}
+Aug  8 09:08:50 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: ============ !!!  Cell_0 End the uplink report statistics !!! ============
+Aug  8 09:09:00 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[0]:  Cell_0     1stID - [-65309] TotalCnt - [0] MaxTA - [0] MinTA - [0]
+Aug  8 09:09:00 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[1]:       MaxRSSI - [0] MinRSSI - [0] MaxTAinS - [0] MinTAinS - [0]
+Aug  8 09:09:00 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[2]:       PASSED  - [0] TotalCnt - [0]
+Aug  8 09:09:00 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUSCH:      Cell_0    CRC-PASSED - [0] TotalCnt - [4551]
+Aug  8 09:09:00 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUCCH FMT2: Cell_0    CRC-PASSED - [1027] TotalCnt - [1706]
+Aug  8 09:09:00 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SRS:      Cell_0   1stID - MaxTA - [0] MinTA - [64] MaxSnr - [0] MinSnr - [255]
+Aug  8 09:09:00 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: FAPI ScanRslt: Cell_0  dlTti - [0], ulTti - [0], txDataTti - [0], ulDci - [0]
+Aug  8 09:09:00 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SSB Info: Cell_0   Recv - [0], DealDone - [0], Copy - [0]
+Aug  8 09:09:00 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Msg time match Info: Copy_pusch_prach_srs - [0 - 0 - 0], msgMiss - [0 - 0]
+Aug  8 09:09:00 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Ctrl Data Msg time : data_alloc_{0}, data_put_{1}, ttiMissing_{1}
+Aug  8 09:09:00 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: ============ !!!  Cell_0 End the uplink report statistics !!! ============
+Aug  8 09:09:10 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[0]:  Cell_0     1stID - [-65309] TotalCnt - [0] MaxTA - [0] MinTA - [0]
+Aug  8 09:09:10 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[1]:       MaxRSSI - [0] MinRSSI - [0] MaxTAinS - [0] MinTAinS - [0]
+Aug  8 09:09:10 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[2]:       PASSED  - [0] TotalCnt - [0]
+Aug  8 09:09:10 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUSCH:      Cell_0    CRC-PASSED - [0] TotalCnt - [4551]
+Aug  8 09:09:10 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUCCH FMT2: Cell_0    CRC-PASSED - [1029] TotalCnt - [1707]
+Aug  8 09:09:10 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SRS:      Cell_0   1stID - MaxTA - [0] MinTA - [64] MaxSnr - [0] MinSnr - [255]
+Aug  8 09:09:10 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: FAPI ScanRslt: Cell_0  dlTti - [0], ulTti - [0], txDataTti - [0], ulDci - [0]
+Aug  8 09:09:10 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SSB Info: Cell_0   Recv - [0], DealDone - [0], Copy - [0]
+Aug  8 09:09:10 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Msg time match Info: Copy_pusch_prach_srs - [0 - 0 - 0], msgMiss - [0 - 0]
+Aug  8 09:09:10 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Ctrl Data Msg time : data_alloc_{0}, data_put_{1}, ttiMissing_{1}
+Aug  8 09:09:10 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: ============ !!!  Cell_0 End the uplink report statistics !!! ============
+Aug  8 09:09:20 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[0]:  Cell_0     1stID - [-65309] TotalCnt - [0] MaxTA - [0] MinTA - [0]
+Aug  8 09:09:20 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[1]:       MaxRSSI - [0] MinRSSI - [0] MaxTAinS - [0] MinTAinS - [0]
+Aug  8 09:09:20 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[2]:       PASSED  - [0] TotalCnt - [0]
+Aug  8 09:09:20 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUSCH:      Cell_0    CRC-PASSED - [0] TotalCnt - [4551]
+Aug  8 09:09:20 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUCCH FMT2: Cell_0    CRC-PASSED - [1025] TotalCnt - [1707]
+Aug  8 09:09:20 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SRS:      Cell_0   1stID - MaxTA - [0] MinTA - [64] MaxSnr - [0] MinSnr - [255]
+Aug  8 09:09:20 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: FAPI ScanRslt: Cell_0  dlTti - [0], ulTti - [0], txDataTti - [0], ulDci - [0]
+Aug  8 09:09:20 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SSB Info: Cell_0   Recv - [0], DealDone - [0], Copy - [0]
+Aug  8 09:09:20 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Msg time match Info: Copy_pusch_prach_srs - [0 - 0 - 0], msgMiss - [0 - 0]
+Aug  8 09:09:20 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Ctrl Data Msg time : data_alloc_{0}, data_put_{1}, ttiMissing_{1}
+Aug  8 09:09:20 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: ============ !!!  Cell_0 End the uplink report statistics !!! ============
+Aug  8 09:09:31 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[0]:  Cell_0     1stID - [-65309] TotalCnt - [0] MaxTA - [0] MinTA - [0]
+Aug  8 09:09:31 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[1]:       MaxRSSI - [0] MinRSSI - [0] MaxTAinS - [0] MinTAinS - [0]
+Aug  8 09:09:31 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[2]:       PASSED  - [0] TotalCnt - [0]
+Aug  8 09:09:31 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUSCH:      Cell_0    CRC-PASSED - [0] TotalCnt - [4551]
+Aug  8 09:09:31 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUCCH FMT2: Cell_0    CRC-PASSED - [1024] TotalCnt - [1706]
+Aug  8 09:09:31 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SRS:      Cell_0   1stID - MaxTA - [0] MinTA - [64] MaxSnr - [0] MinSnr - [255]
+Aug  8 09:09:31 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: FAPI ScanRslt: Cell_0  dlTti - [0], ulTti - [0], txDataTti - [0], ulDci - [0]
+Aug  8 09:09:31 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SSB Info: Cell_0   Recv - [0], DealDone - [0], Copy - [0]
+Aug  8 09:09:31 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Msg time match Info: Copy_pusch_prach_srs - [0 - 0 - 0], msgMiss - [0 - 0]
+Aug  8 09:09:31 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Ctrl Data Msg time : data_alloc_{0}, data_put_{1}, ttiMissing_{1}
+Aug  8 09:09:31 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: ============ !!!  Cell_0 End the uplink report statistics !!! ============
+Aug  8 09:09:41 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[0]:  Cell_0     1stID - [-65309] TotalCnt - [0] MaxTA - [0] MinTA - [0]
+Aug  8 09:09:41 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[1]:       MaxRSSI - [0] MinRSSI - [0] MaxTAinS - [0] MinTAinS - [0]
+Aug  8 09:09:41 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[2]:       PASSED  - [0] TotalCnt - [0]
+Aug  8 09:09:41 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUSCH:      Cell_0    CRC-PASSED - [0] TotalCnt - [4551]
+Aug  8 09:09:41 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUCCH FMT2: Cell_0    CRC-PASSED - [1028] TotalCnt - [1707]
+Aug  8 09:09:41 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SRS:      Cell_0   1stID - MaxTA - [0] MinTA - [64] MaxSnr - [0] MinSnr - [255]
+Aug  8 09:09:41 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: FAPI ScanRslt: Cell_0  dlTti - [0], ulTti - [0], txDataTti - [0], ulDci - [0]
+Aug  8 09:09:41 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SSB Info: Cell_0   Recv - [0], DealDone - [0], Copy - [0]
+Aug  8 09:09:41 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Msg time match Info: Copy_pusch_prach_srs - [0 - 0 - 0], msgMiss - [0 - 0]
+Aug  8 09:09:41 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Ctrl Data Msg time : data_alloc_{0}, data_put_{1}, ttiMissing_{1}
+Aug  8 09:09:41 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: ============ !!!  Cell_0 End the uplink report statistics !!! ============
+Aug  8 09:09:51 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[0]:  Cell_0     1stID - [-65309] TotalCnt - [0] MaxTA - [0] MinTA - [0]
+Aug  8 09:09:51 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[1]:       MaxRSSI - [0] MinRSSI - [0] MaxTAinS - [0] MinTAinS - [0]
+Aug  8 09:09:51 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[2]:       PASSED  - [0] TotalCnt - [0]
+Aug  8 09:09:51 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUSCH:      Cell_0    CRC-PASSED - [0] TotalCnt - [4551]
+Aug  8 09:09:51 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUCCH FMT2: Cell_0    CRC-PASSED - [1026] TotalCnt - [1707]
+Aug  8 09:09:51 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SRS:      Cell_0   1stID - MaxTA - [0] MinTA - [64] MaxSnr - [0] MinSnr - [255]
+Aug  8 09:09:51 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: FAPI ScanRslt: Cell_0  dlTti - [0], ulTti - [0], txDataTti - [0], ulDci - [0]
+Aug  8 09:09:51 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SSB Info: Cell_0   Recv - [0], DealDone - [0], Copy - [0]
+Aug  8 09:09:51 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Msg time match Info: Copy_pusch_prach_srs - [0 - 0 - 0], msgMiss - [0 - 0]
+Aug  8 09:09:51 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Ctrl Data Msg time : data_alloc_{0}, data_put_{1}, ttiMissing_{1}
+Aug  8 09:09:51 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: ============ !!!  Cell_0 End the uplink report statistics !!! ============
+Aug  8 09:10:01 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[0]:  Cell_0     1stID - [-65309] TotalCnt - [0] MaxTA - [0] MinTA - [0]
+Aug  8 09:10:01 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[1]:       MaxRSSI - [0] MinRSSI - [0] MaxTAinS - [0] MinTAinS - [0]
+Aug  8 09:10:01 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[2]:       PASSED  - [0] TotalCnt - [0]
+Aug  8 09:10:01 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUSCH:      Cell_0    CRC-PASSED - [0] TotalCnt - [4551]
+Aug  8 09:10:01 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUCCH FMT2: Cell_0    CRC-PASSED - [1027] TotalCnt - [1706]
+Aug  8 09:10:01 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SRS:      Cell_0   1stID - MaxTA - [0] MinTA - [64] MaxSnr - [0] MinSnr - [255]
+Aug  8 09:10:01 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: FAPI ScanRslt: Cell_0  dlTti - [0], ulTti - [0], txDataTti - [0], ulDci - [0]
+Aug  8 09:10:01 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SSB Info: Cell_0   Recv - [0], DealDone - [0], Copy - [0]
+Aug  8 09:10:01 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Msg time match Info: Copy_pusch_prach_srs - [0 - 0 - 0], msgMiss - [0 - 0]
+Aug  8 09:10:01 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Ctrl Data Msg time : data_alloc_{0}, data_put_{1}, ttiMissing_{1}
+Aug  8 09:10:01 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: ============ !!!  Cell_0 End the uplink report statistics !!! ============
+Aug  8 09:10:12 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[0]:  Cell_0     1stID - [-65309] TotalCnt - [0] MaxTA - [0] MinTA - [0]
+Aug  8 09:10:12 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[1]:       MaxRSSI - [0] MinRSSI - [0] MaxTAinS - [0] MinTAinS - [0]
+Aug  8 09:10:12 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[2]:       PASSED  - [0] TotalCnt - [0]
+Aug  8 09:10:12 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUSCH:      Cell_0    CRC-PASSED - [0] TotalCnt - [4552]
+Aug  8 09:10:12 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUCCH FMT2: Cell_0    CRC-PASSED - [1028] TotalCnt - [1707]
+Aug  8 09:10:12 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SRS:      Cell_0   1stID - MaxTA - [0] MinTA - [64] MaxSnr - [0] MinSnr - [255]
+Aug  8 09:10:12 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: FAPI ScanRslt: Cell_0  dlTti - [0], ulTti - [0], txDataTti - [0], ulDci - [0]
+Aug  8 09:10:12 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SSB Info: Cell_0   Recv - [0], DealDone - [0], Copy - [0]
+Aug  8 09:10:12 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Msg time match Info: Copy_pusch_prach_srs - [0 - 0 - 0], msgMiss - [0 - 0]
+Aug  8 09:10:12 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Ctrl Data Msg time : data_alloc_{0}, data_put_{1}, ttiMissing_{1}
+Aug  8 09:10:12 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: ============ !!!  Cell_0 End the uplink report statistics !!! ============
+Aug  8 09:10:22 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[0]:  Cell_0     1stID - [-65309] TotalCnt - [0] MaxTA - [0] MinTA - [0]
+Aug  8 09:10:22 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[1]:       MaxRSSI - [0] MinRSSI - [0] MaxTAinS - [0] MinTAinS - [0]
+Aug  8 09:10:22 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[2]:       PASSED  - [0] TotalCnt - [0]
+Aug  8 09:10:22 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUSCH:      Cell_0    CRC-PASSED - [0] TotalCnt - [4551]
+Aug  8 09:10:22 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUCCH FMT2: Cell_0    CRC-PASSED - [1028] TotalCnt - [1707]
+Aug  8 09:10:22 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SRS:      Cell_0   1stID - MaxTA - [0] MinTA - [64] MaxSnr - [0] MinSnr - [255]
+Aug  8 09:10:22 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: FAPI ScanRslt: Cell_0  dlTti - [0], ulTti - [0], txDataTti - [0], ulDci - [0]
+Aug  8 09:10:22 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SSB Info: Cell_0   Recv - [0], DealDone - [0], Copy - [0]
+Aug  8 09:10:22 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Msg time match Info: Copy_pusch_prach_srs - [0 - 0 - 0], msgMiss - [0 - 0]
+Aug  8 09:10:22 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Ctrl Data Msg time : data_alloc_{0}, data_put_{1}, ttiMissing_{1}
+Aug  8 09:10:22 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: ============ !!!  Cell_0 End the uplink report statistics !!! ============
+Aug  8 09:10:32 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[0]:  Cell_0     1stID - [-65309] TotalCnt - [0] MaxTA - [0] MinTA - [0]
+Aug  8 09:10:32 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[1]:       MaxRSSI - [0] MinRSSI - [0] MaxTAinS - [0] MinTAinS - [0]
+Aug  8 09:10:32 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[2]:       PASSED  - [0] TotalCnt - [0]
+Aug  8 09:10:32 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUSCH:      Cell_0    CRC-PASSED - [0] TotalCnt - [4551]
+Aug  8 09:10:32 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUCCH FMT2: Cell_0    CRC-PASSED - [1029] TotalCnt - [1706]
+Aug  8 09:10:32 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SRS:      Cell_0   1stID - MaxTA - [0] MinTA - [64] MaxSnr - [0] MinSnr - [255]
+Aug  8 09:10:32 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: FAPI ScanRslt: Cell_0  dlTti - [0], ulTti - [0], txDataTti - [0], ulDci - [0]
+Aug  8 09:10:32 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SSB Info: Cell_0   Recv - [0], DealDone - [0], Copy - [0]
+Aug  8 09:10:32 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Msg time match Info: Copy_pusch_prach_srs - [0 - 0 - 0], msgMiss - [0 - 0]
+Aug  8 09:10:32 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Ctrl Data Msg time : data_alloc_{0}, data_put_{1}, ttiMissing_{1}
+Aug  8 09:10:32 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: ============ !!!  Cell_0 End the uplink report statistics !!! ============
+Aug  8 09:10:42 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[0]:  Cell_0     1stID - [-65309] TotalCnt - [0] MaxTA - [0] MinTA - [0]
+Aug  8 09:10:42 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[1]:       MaxRSSI - [0] MinRSSI - [0] MaxTAinS - [0] MinTAinS - [0]
+Aug  8 09:10:42 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[2]:       PASSED  - [0] TotalCnt - [0]
+Aug  8 09:10:42 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUSCH:      Cell_0    CRC-PASSED - [0] TotalCnt - [4551]
+Aug  8 09:10:42 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUCCH FMT2: Cell_0    CRC-PASSED - [1029] TotalCnt - [1707]
+Aug  8 09:10:42 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SRS:      Cell_0   1stID - MaxTA - [0] MinTA - [64] MaxSnr - [0] MinSnr - [255]
+Aug  8 09:10:42 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: FAPI ScanRslt: Cell_0  dlTti - [0], ulTti - [0], txDataTti - [0], ulDci - [0]
+Aug  8 09:10:42 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SSB Info: Cell_0   Recv - [0], DealDone - [0], Copy - [0]
+Aug  8 09:10:42 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Msg time match Info: Copy_pusch_prach_srs - [0 - 0 - 0], msgMiss - [0 - 0]
+Aug  8 09:10:42 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Ctrl Data Msg time : data_alloc_{0}, data_put_{1}, ttiMissing_{1}
+Aug  8 09:10:42 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: ============ !!!  Cell_0 End the uplink report statistics !!! ============
+Aug  8 09:10:53 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[0]:  Cell_0     1stID - [-65309] TotalCnt - [0] MaxTA - [0] MinTA - [0]
+Aug  8 09:10:53 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[1]:       MaxRSSI - [0] MinRSSI - [0] MaxTAinS - [0] MinTAinS - [0]
+Aug  8 09:10:53 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PRACH[2]:       PASSED  - [0] TotalCnt - [0]
+Aug  8 09:10:53 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUSCH:      Cell_0    CRC-PASSED - [0] TotalCnt - [4551]
+Aug  8 09:10:53 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: PUCCH FMT2: Cell_0    CRC-PASSED - [1025] TotalCnt - [1707]
+Aug  8 09:10:53 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SRS:      Cell_0   1stID - MaxTA - [0] MinTA - [64] MaxSnr - [0] MinSnr - [255]
+Aug  8 09:10:53 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: FAPI ScanRslt: Cell_0  dlTti - [0], ulTti - [0], txDataTti - [0], ulDci - [0]
+Aug  8 09:10:53 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: SSB Info: Cell_0   Recv - [0], DealDone - [0], Copy - [0]
+Aug  8 09:10:53 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Msg time match Info: Copy_pusch_prach_srs - [0 - 0 - 0], msgMiss - [0 - 0]
+Aug  8 09:10:53 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: fapi Ctrl Data Msg time : data_alloc_{0}, data_put_{1}, ttiMissing_{1}
+Aug  8 09:10:53 localhost nrTestMAC[973]: PC802_0 PFI 11 PRINTF: ============ !!!  Cell_0 End the uplink report statistics !!! ============
