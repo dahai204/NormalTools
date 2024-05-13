@@ -1,0 +1,128 @@
+ 202 ,PC802_0 PFI 0 PRINTF: msg=,0x0323E8A0, dir_q,0x12,GET  , type= ,2, size0=0, SLot_SFN  ,0x8A080008, mcycle,321761124
+ 203 ,PC802_0 PFI 0 PRINTF: msg=,0x0323E8A0, dir_q,0x12,FREE , type= ,2, size0=0, SLot_SFN  ,0x8A080008, mcycle,321769066
+ 204 ,PC802_0 PFI 0 PRINTF: msg=,0x032D3220, dir_q,0x02,ALLOC, type= ,2, size0=0, SLot_SFN  ,0x4C080008, mcycle,321774815
+ 205 ,PC802_0 PFI 0 PRINTF: msg=,0x032D3220, dir_q,0x02,PUT  , type= ,2, size0=0, SLot_SFN  ,0x4C080008, mcycle,321791807
+ 206 ,PC802_0 PFI 0 PRINTF: msg=,0x032468A0, dir_q,0x12,GET  , type= ,2, size0=0, SLot_SFN  ,0x8B090008, mcycle,322258004
+ 207 ,PC802_0 PFI 0 PRINTF: msg=,0x032468A0, dir_q,0x12,FREE , type= ,2, size0=0, SLot_SFN  ,0x8B090008, mcycle,322265981
+ 208 ,PC802_0 PFI 0 PRINTF: msg=,0x032BB220, dir_q,0x02,ALLOC, type= ,2, size0=0, SLot_SFN  ,0x4D090008, mcycle,322274196
+ 209 ,PC802_0 PFI 0 PRINTF: msg=,0x032BB220, dir_q,0x02,PUT  , type= ,2, size0=0, SLot_SFN  ,0x4D090008, mcycle,322288717
+ 210 ,PC802_0 PFI 0 PRINTF: msg=,0x0322E8A0, dir_q,0x12,GET  , type= ,2, size0=0, SLot_SFN  ,0x8C0A0008, mcycle,322760841
+ 211 ,PC802_0 PFI 0 PRINTF: msg=,0x0322E8A0, dir_q,0x12,FREE , type= ,2, size0=0, SLot_SFN  ,0x8C0A0008, mcycle,322768765
+ 212 ,PC802_0 PFI 0 PRINTF: msg=,0x032CB220, dir_q,0x02,ALLOC, type= ,2, size0=0, SLot_SFN  ,0x4E0A0008, mcycle,322774501
+ 213 ,PC802_0 PFI 0 PRINTF: msg=,0x032CB220, dir_q,0x02,PUT  , type= ,2, size0=0, SLot_SFN  ,0x4E0A0008, mcycle,322791490
+ 232 ,PC802_0 PFI 0 PRINTF: msg=,0x032368A0, dir_q,0x12,GET  , type= ,2, size0=0, SLot_SFN  ,0x8D0B0008, mcycle,323258024
+ 233 ,PC802_0 PFI 0 PRINTF: msg=,0x032368A0, dir_q,0x12,FREE , type= ,2, size0=0, SLot_SFN  ,0x8D0B0008, mcycle,323265975
+ 234 ,PC802_0 PFI 0 PRINTF: msg=,0x032C3220, dir_q,0x02,ALLOC, type= ,2, size0=0, SLot_SFN  ,0x4F0B0008, mcycle,323269053
+ 235 ,PC802_0 PFI 0 PRINTF: msg=,0x032C3220, dir_q,0x02,PUT  , type= ,2, size0=0, SLot_SFN  ,0x4F0B0008, mcycle,323286043
+ 236 ,PC802_0 PFI 0 PRINTF: msg=,0x0323E8A0, dir_q,0x12,GET  , type= ,2, size0=0, SLot_SFN  ,0x8E0C0008, mcycle,323762265
+ 237 ,PC802_0 PFI 0 PRINTF: msg=,0x0323E8A0, dir_q,0x12,FREE , type= ,2, size0=0, SLot_SFN  ,0x8E0C0008, mcycle,323770485
+ 238 ,PC802_0 PFI 0 PRINTF: msg=,0x032D3220, dir_q,0x02,ALLOC, type= ,2, size0=0, SLot_SFN  ,0x500C0008, mcycle,323776305
+ 239 ,PC802_0 PFI 0 PRINTF: msg=,0x032D3220, dir_q,0x02,PUT  , type= ,2, size0=0, SLot_SFN  ,0x500C0008, mcycle,323793300
+ 240 ,PC802_0 PFI 0 PRINTF: msg=,0x032468A0, dir_q,0x12,GET  , type= ,2, size0=0, SLot_SFN  ,0x8F0D0008, mcycle,324259485
+ 241 ,PC802_0 PFI 0 PRINTF: msg=,0x032468A0, dir_q,0x12,FREE , type= ,2, size0=0, SLot_SFN  ,0x8F0D0008, mcycle,324267425
+ 242 ,PC802_0 PFI 0 PRINTF: msg=,0x032BB220, dir_q,0x02,ALLOC, type= ,2, size0=0, SLot_SFN  ,0x510D0008, mcycle,324275633
+ 243 ,PC802_0 PFI 0 PRINTF: msg=,0x032BB220, dir_q,0x02,PUT  , type= ,2, size0=0, SLot_SFN  ,0x510D0008, mcycle,324290087
+ 244 ,PC802_0 PFI 0 PRINTF: msg=,0x0322E8A0, dir_q,0x12,GET  , type= ,2, size0=0, SLot_SFN  ,0x900E0008, mcycle,324761979
+ 245 ,PC802_0 PFI 0 PRINTF: msg=,0x0322E8A0, dir_q,0x12,FREE , type= ,2, size0=0, SLot_SFN  ,0x900E0008, mcycle,324769941
+ 246 ,PC802_0 PFI 0 PRINTF: msg=,0x032CB220, dir_q,0x02,ALLOC, type= ,2, size0=0, SLot_SFN  ,0x520E0008, mcycle,324775689
+ 247 ,PC802_0 PFI 0 PRINTF: msg=,0x032CB220, dir_q,0x02,PUT  , type= ,2, size0=0, SLot_SFN  ,0x520E0008, mcycle,324792689
+ 264 ,PC802_0 PFI 0 PRINTF: msg=,0x032368A0, dir_q,0x12,GET  , type= ,2, size0=0, SLot_SFN  ,0x910F0008, mcycle,325257768
+ 265 ,PC802_0 PFI 0 PRINTF: msg=,0x032368A0, dir_q,0x12,FREE , type= ,2, size0=0, SLot_SFN  ,0x910F0008, mcycle,325265729
+ 266 ,PC802_0 PFI 0 PRINTF: msg=,0x032C3220, dir_q,0x02,ALLOC, type= ,2, size0=0, SLot_SFN  ,0x530F0008, mcycle,325271491
+ 267 ,PC802_0 PFI 0 PRINTF: msg=,0x032C3220, dir_q,0x02,PUT  , type= ,2, size0=0, SLot_SFN  ,0x530F0008, mcycle,325288458
+ 268 ,PC802_0 PFI 0 PRINTF: msg=,0x0323E8A0, dir_q,0x12,GET  , type= ,2, size0=0, SLot_SFN  ,0x92100008, mcycle,325757841
+ 269 ,PC802_0 PFI 0 PRINTF: msg=,0x0323E8A0, dir_q,0x12,FREE , type= ,2, size0=0, SLot_SFN  ,0x92100008, mcycle,325765774
+ 270 ,PC802_0 PFI 0 PRINTF: msg=,0x032D3220, dir_q,0x02,ALLOC, type= ,2, size0=0, SLot_SFN  ,0x54100008, mcycle,325770788
+ 271 ,PC802_0 PFI 0 PRINTF: msg=,0x032D3220, dir_q,0x02,PUT  , type= ,2, size0=0, SLot_SFN  ,0x54100008, mcycle,325785254
+ 272 ,PC802_0 PFI 0 PRINTF: msg=,0x032468A0, dir_q,0x12,GET  , type= ,2, size0=0, SLot_SFN  ,0x93110008, mcycle,326257484
+ 273 ,PC802_0 PFI 0 PRINTF: msg=,0x032468A0, dir_q,0x12,FREE , type= ,2, size0=0, SLot_SFN  ,0x93110008, mcycle,326265432
+ 274 ,PC802_0 PFI 0 PRINTF: msg=,0x032BB220, dir_q,0x02,ALLOC, type= ,2, size0=0, SLot_SFN  ,0x55110008, mcycle,326271196
+ 275 ,PC802_0 PFI 0 PRINTF: msg=,0x032BB220, dir_q,0x02,PUT  , type= ,2, size0=0, SLot_SFN  ,0x55110008, mcycle,326288192
+ 276 ,PC802_0 PFI 0 PRINTF: msg=,0x0322E8A0, dir_q,0x12,GET  , type= ,2, size0=0, SLot_SFN  ,0x94120008, mcycle,326757688
+ 277 ,PC802_0 PFI 0 PRINTF: msg=,0x0322E8A0, dir_q,0x12,FREE , type= ,2, size0=0, SLot_SFN  ,0x94120008, mcycle,326765651
+ 278 ,PC802_0 PFI 0 PRINTF: msg=,0x032CB220, dir_q,0x02,ALLOC, type= ,2, size0=0, SLot_SFN  ,0x56120008, mcycle,326770672
+ 279 ,PC802_0 PFI 0 PRINTF: msg=,0x032CB220, dir_q,0x02,PUT  , type= ,2, size0=0, SLot_SFN  ,0x56120008, mcycle,326785124
+ 296 ,PC802_0 PFI 0 PRINTF: msg=,0x032368A0, dir_q,0x12,GET  , type= ,2, size0=0, SLot_SFN  ,0x95130008, mcycle,327259911
+ 297 ,PC802_0 PFI 0 PRINTF: msg=,0x032368A0, dir_q,0x12,FREE , type= ,2, size0=0, SLot_SFN  ,0x95130008, mcycle,327267941
+ 298 ,PC802_0 PFI 0 PRINTF: msg=,0x032C3220, dir_q,0x02,ALLOC, type= ,2, size0=0, SLot_SFN  ,0x57130008, mcycle,327271020
+ 299 ,PC802_0 PFI 0 PRINTF: msg=,0x032C3220, dir_q,0x02,PUT  , type= ,2, size0=0, SLot_SFN  ,0x57130008, mcycle,327288017
+ 300 ,PC802_0 PFI 0 PRINTF: msg=,0x0323E8A0, dir_q,0x12,GET  , type= ,2, size0=0, SLot_SFN  ,0x96000009, mcycle,327757462
+ 301 ,PC802_0 PFI 0 PRINTF: msg=,0x0323E8A0, dir_q,0x12,FREE , type= ,2, size0=0, SLot_SFN  ,0x96000009, mcycle,327765453
+ 302 ,PC802_0 PFI 0 PRINTF: msg=,0x032D3220, dir_q,0x02,ALLOC, type= ,2, size0=0, SLot_SFN  ,0x58000009, mcycle,327770466
+ 303 ,PC802_0 PFI 0 PRINTF: msg=,0x032D3220, dir_q,0x02,PUT  , type= ,2, size0=0, SLot_SFN  ,0x58000009, mcycle,327784954
+ 304 ,PC802_0 PFI 0 PRINTF: msg=,0x032468A0, dir_q,0x12,GET  , type= ,2, size0=0, SLot_SFN  ,0x97010009, mcycle,328258801
+ 305 ,PC802_0 PFI 0 PRINTF: msg=,0x032468A0, dir_q,0x12,FREE , type= ,2, size0=0, SLot_SFN  ,0x97010009, mcycle,328266756
+ 306 ,PC802_0 PFI 0 PRINTF: msg=,0x032BB220, dir_q,0x02,ALLOC, type= ,2, size0=0, SLot_SFN  ,0x59010009, mcycle,328272546
+ 307 ,PC802_0 PFI 0 PRINTF: msg=,0x032BB220, dir_q,0x02,PUT  , type= ,2, size0=0, SLot_SFN  ,0x59010009, mcycle,328289574
+ 308 ,PC802_0 PFI 0 PRINTF: msg=,0x0322E8A0, dir_q,0x12,GET  , type= ,2, size0=0, SLot_SFN  ,0x98020009, mcycle,328759223
+ 309 ,PC802_0 PFI 0 PRINTF: msg=,0x0322E8A0, dir_q,0x12,FREE , type= ,2, size0=0, SLot_SFN  ,0x98020009, mcycle,328767184
+ 310 ,PC802_0 PFI 0 PRINTF: msg=,0x032CB220, dir_q,0x02,ALLOC, type= ,2, size0=0, SLot_SFN  ,0x5A020009, mcycle,328772200
+ 311 ,PC802_0 PFI 0 PRINTF: msg=,0x032CB220, dir_q,0x02,PUT  , type= ,2, size0=0, SLot_SFN  ,0x5A020009, mcycle,328786692
+ 328 ,PC802_0 PFI 0 PRINTF: msg=,0x032368A0, dir_q,0x12,GET  , type= ,2, size0=0, SLot_SFN  ,0x99030009, mcycle,329259181
+ 329 ,PC802_0 PFI 0 PRINTF: msg=,0x032368A0, dir_q,0x12,FREE , type= ,2, size0=0, SLot_SFN  ,0x99030009, mcycle,329267156
+ 330 ,PC802_0 PFI 0 PRINTF: msg=,0x032C3220, dir_q,0x02,ALLOC, type= ,2, size0=0, SLot_SFN  ,0x5B030009, mcycle,329272919
+ 331 ,PC802_0 PFI 0 PRINTF: msg=,0x032C3220, dir_q,0x02,PUT  , type= ,2, size0=0, SLot_SFN  ,0x5B030009, mcycle,329289932
+ 332 ,PC802_0 PFI 0 PRINTF: msg=,0x0323E8A0, dir_q,0x12,GET  , type= ,2, size0=0, SLot_SFN  ,0x9A040009, mcycle,329759571
+ 333 ,PC802_0 PFI 0 PRINTF: msg=,0x0323E8A0, dir_q,0x12,FREE , type= ,2, size0=0, SLot_SFN  ,0x9A040009, mcycle,329767510
+ 334 ,PC802_0 PFI 0 PRINTF: msg=,0x032D3220, dir_q,0x02,ALLOC, type= ,2, size0=0, SLot_SFN  ,0x5C040009, mcycle,329772516
+ 335 ,PC802_0 PFI 0 PRINTF: msg=,0x032D3220, dir_q,0x02,PUT  , type= ,2, size0=0, SLot_SFN  ,0x5C040009, mcycle,329787089
+ 336 ,PC802_0 PFI 0 PRINTF: msg=,0x032468A0, dir_q,0x12,GET  , type= ,2, size0=0, SLot_SFN  ,0x9B050009, mcycle,330259218
+ 337 ,PC802_0 PFI 0 PRINTF: msg=,0x032468A0, dir_q,0x12,FREE , type= ,2, size0=0, SLot_SFN  ,0x9B050009, mcycle,330267173
+ 338 ,PC802_0 PFI 0 PRINTF: msg=,0x032BB220, dir_q,0x02,ALLOC, type= ,2, size0=0, SLot_SFN  ,0x5D050009, mcycle,330272931
+ 339 ,PC802_0 PFI 0 PRINTF: msg=,0x032BB220, dir_q,0x02,PUT  , type= ,2, size0=0, SLot_SFN  ,0x5D050009, mcycle,330289938
+ 340 ,PC802_0 PFI 0 PRINTF: msg=,0x0322E8A0, dir_q,0x12,GET  , type= ,2, size0=0, SLot_SFN  ,0x9C060009, mcycle,330756405
+ 341 ,PC802_0 PFI 0 PRINTF: msg=,0x0322E8A0, dir_q,0x12,FREE , type= ,2, size0=0, SLot_SFN  ,0x9C060009, mcycle,330764301
+ 342 ,PC802_0 PFI 0 PRINTF: msg=,0x032CB220, dir_q,0x02,ALLOC, type= ,2, size0=0, SLot_SFN  ,0x5E060009, mcycle,330767385
+ 343 ,PC802_0 PFI 0 PRINTF: msg=,0x032CB220, dir_q,0x02,PUT  , type= ,2, size0=0, SLot_SFN  ,0x5E060009, mcycle,330784374
+ 360 ,PC802_0 PFI 0 PRINTF: msg=,0x032368A0, dir_q,0x12,GET  , type= ,2, size0=0, SLot_SFN  ,0x9D070009, mcycle,331258962
+ 361 ,PC802_0 PFI 0 PRINTF: msg=,0x032368A0, dir_q,0x12,FREE , type= ,2, size0=0, SLot_SFN  ,0x9D070009, mcycle,331266896
+ 362 ,PC802_0 PFI 0 PRINTF: msg=,0x032C3220, dir_q,0x02,ALLOC, type= ,2, size0=0, SLot_SFN  ,0x5F070009, mcycle,331272657
+ 363 ,PC802_0 PFI 0 PRINTF: msg=,0x032C3220, dir_q,0x02,PUT  , type= ,2, size0=0, SLot_SFN  ,0x5F070009, mcycle,331289710
+ 364 ,PC802_0 PFI 0 PRINTF: msg=,0x0323E8A0, dir_q,0x12,GET  , type= ,2, size0=0, SLot_SFN  ,0x9E080009, mcycle,331759239
+ 365 ,PC802_0 PFI 0 PRINTF: msg=,0x0323E8A0, dir_q,0x12,FREE , type= ,2, size0=0, SLot_SFN  ,0x9E080009, mcycle,331767156
+ 366 ,PC802_0 PFI 0 PRINTF: msg=,0x032D3220, dir_q,0x02,ALLOC, type= ,2, size0=0, SLot_SFN  ,0x60080009, mcycle,331772160
+ 367 ,PC802_0 PFI 0 PRINTF: msg=,0x032D3220, dir_q,0x02,PUT  , type= ,2, size0=0, SLot_SFN  ,0x60080009, mcycle,331786652
+ 368 ,PC802_0 PFI 0 PRINTF: msg=,0x032468A0, dir_q,0x12,GET  , type= ,2, size0=0, SLot_SFN  ,0x9F090009, mcycle,332258759
+ 369 ,PC802_0 PFI 0 PRINTF: msg=,0x032468A0, dir_q,0x12,FREE , type= ,2, size0=0, SLot_SFN  ,0x9F090009, mcycle,332266733
+ 370 ,PC802_0 PFI 0 PRINTF: msg=,0x032BB220, dir_q,0x02,ALLOC, type= ,2, size0=0, SLot_SFN  ,0x61090009, mcycle,332272491
+ 371 ,PC802_0 PFI 0 PRINTF: msg=,0x032BB220, dir_q,0x02,PUT  , type= ,2, size0=0, SLot_SFN  ,0x61090009, mcycle,332289527
+ 372 ,PC802_0 PFI 0 PRINTF: msg=,0x0322E8A0, dir_q,0x12,GET  , type= ,2, size0=0, SLot_SFN  ,0xA00A0009, mcycle,332758837
+ 373 ,PC802_0 PFI 0 PRINTF: msg=,0x0322E8A0, dir_q,0x12,FREE , type= ,2, size0=0, SLot_SFN  ,0xA00A0009, mcycle,332766750
+ 374 ,PC802_0 PFI 0 PRINTF: msg=,0x032CB220, dir_q,0x02,ALLOC, type= ,2, size0=0, SLot_SFN  ,0x620A0009, mcycle,332771754
+ 375 ,PC802_0 PFI 0 PRINTF: msg=,0x032CB220, dir_q,0x02,PUT  , type= ,2, size0=0, SLot_SFN  ,0x620A0009, mcycle,332786261
+ 392 ,PC802_0 PFI 0 PRINTF: msg=,0x032368A0, dir_q,0x12,GET  , type= ,2, size0=0, SLot_SFN  ,0xA10B0009, mcycle,333258504
+ 393 ,PC802_0 PFI 0 PRINTF: msg=,0x032368A0, dir_q,0x12,FREE , type= ,2, size0=0, SLot_SFN  ,0xA10B0009, mcycle,333266441
+ 394 ,PC802_0 PFI 0 PRINTF: msg=,0x032C3220, dir_q,0x02,ALLOC, type= ,2, size0=0, SLot_SFN  ,0x630B0009, mcycle,333272205
+ 395 ,PC802_0 PFI 0 PRINTF: msg=,0x032C3220, dir_q,0x02,PUT  , type= ,2, size0=0, SLot_SFN  ,0x630B0009, mcycle,333289226
+ 396 ,PC802_0 PFI 0 PRINTF: msg=,0x0323E8A0, dir_q,0x12,GET  , type= ,2, size0=0, SLot_SFN  ,0xA20C0009, mcycle,333758774
+ 397 ,PC802_0 PFI 0 PRINTF: msg=,0x0323E8A0, dir_q,0x12,FREE , type= ,2, size0=0, SLot_SFN  ,0xA20C0009, mcycle,333766747
+ 398 ,PC802_0 PFI 0 PRINTF: msg=,0x032D3220, dir_q,0x02,ALLOC, type= ,2, size0=0, SLot_SFN  ,0x640C0009, mcycle,333771763
+ 399 ,PC802_0 PFI 0 PRINTF: msg=,0x032D3220, dir_q,0x02,PUT  , type= ,2, size0=0, SLot_SFN  ,0x640C0009, mcycle,333786278
+ 400 ,PC802_0 PFI 0 PRINTF: msg=,0x032468A0, dir_q,0x12,GET  , type= ,2, size0=0, SLot_SFN  ,0xA30D0009, mcycle,334258384
+ 401 ,PC802_0 PFI 0 PRINTF: msg=,0x032468A0, dir_q,0x12,FREE , type= ,2, size0=0, SLot_SFN  ,0xA30D0009, mcycle,334266570
+ 402 ,PC802_0 PFI 0 PRINTF: msg=,0x032BB220, dir_q,0x02,ALLOC, type= ,2, size0=0, SLot_SFN  ,0x650D0009, mcycle,334272343
+ 403 ,PC802_0 PFI 0 PRINTF: msg=,0x032BB220, dir_q,0x02,PUT  , type= ,2, size0=0, SLot_SFN  ,0x650D0009, mcycle,334289372
+ 404 ,PC802_0 PFI 0 PRINTF: msg=,0x0322E8A0, dir_q,0x12,GET  , type= ,2, size0=0, SLot_SFN  ,0xA40E0009, mcycle,334758871
+ 405 ,PC802_0 PFI 0 PRINTF: msg=,0x0322E8A0, dir_q,0x12,FREE , type= ,2, size0=0, SLot_SFN  ,0xA40E0009, mcycle,334766784
+ 406 ,PC802_0 PFI 0 PRINTF: msg=,0x032CB220, dir_q,0x02,ALLOC, type= ,2, size0=0, SLot_SFN  ,0x660E0009, mcycle,334771782
+ 407 ,PC802_0 PFI 0 PRINTF: msg=,0x032CB220, dir_q,0x02,PUT  , type= ,2, size0=0, SLot_SFN  ,0x660E0009, mcycle,334786317
+ 424 ,PC802_0 PFI 0 PRINTF: msg=,0x032368A0, dir_q,0x12,GET  , type= ,2, size0=0, SLot_SFN  ,0xA50F0009, mcycle,335258404
+ 425 ,PC802_0 PFI 0 PRINTF: msg=,0x032368A0, dir_q,0x12,FREE , type= ,2, size0=0, SLot_SFN  ,0xA50F0009, mcycle,335266372
+ 426 ,PC802_0 PFI 0 PRINTF: msg=,0x032C3220, dir_q,0x02,ALLOC, type= ,2, size0=0, SLot_SFN  ,0x670F0009, mcycle,335272144
+ 427 ,PC802_0 PFI 0 PRINTF: msg=,0x032C3220, dir_q,0x02,PUT  , type= ,2, size0=0, SLot_SFN  ,0x670F0009, mcycle,335289177
+ 428 ,PC802_0 PFI 0 PRINTF: msg=,0x0323E8A0, dir_q,0x12,GET  , type= ,2, size0=0, SLot_SFN  ,0xA6100009, mcycle,335758608
+ 429 ,PC802_0 PFI 0 PRINTF: msg=,0x0323E8A0, dir_q,0x12,FREE , type= ,2, size0=0, SLot_SFN  ,0xA6100009, mcycle,335766504
+ 430 ,PC802_0 PFI 0 PRINTF: msg=,0x032D3220, dir_q,0x02,ALLOC, type= ,2, size0=0, SLot_SFN  ,0x68100009, mcycle,335771511
+ 431 ,PC802_0 PFI 0 PRINTF: msg=,0x032D3220, dir_q,0x02,PUT  , type= ,2, size0=0, SLot_SFN  ,0x68100009, mcycle,335786001
+ 432 ,PC802_0 PFI 0 PRINTF: msg=,0x032468A0, dir_q,0x12,GET  , type= ,2, size0=0, SLot_SFN  ,0xA7110009, mcycle,336258169
+ 433 ,PC802_0 PFI 0 PRINTF: msg=,0x032468A0, dir_q,0x12,FREE , type= ,2, size0=0, SLot_SFN  ,0xA7110009, mcycle,336266142
+ 434 ,PC802_0 PFI 0 PRINTF: msg=,0x032BB220, dir_q,0x02,ALLOC, type= ,2, size0=0, SLot_SFN  ,0x69110009, mcycle,336271901
+ 435 ,PC802_0 PFI 0 PRINTF: msg=,0x032BB220, dir_q,0x02,PUT  , type= ,2, size0=0, SLot_SFN  ,0x69110009, mcycle,336288910
+ 436 ,PC802_0 PFI 0 PRINTF: msg=,0x0322E8A0, dir_q,0x12,GET  , type= ,2, size0=0, SLot_SFN  ,0xA8120009, mcycle,336758582
+ 437 ,PC802_0 PFI 0 PRINTF: msg=,0x0322E8A0, dir_q,0x12,FREE , type= ,2, size0=0, SLot_SFN  ,0xA8120009, mcycle,336766521
+ 438 ,PC802_0 PFI 0 PRINTF: msg=,0x032CB220, dir_q,0x02,ALLOC, type= ,2, size0=0, SLot_SFN  ,0x6A120009, mcycle,336771522
+ 439 ,PC802_0 PFI 0 PRINTF: msg=,0x032CB220, dir_q,0x02,PUT  , type= ,2, size0=0, SLot_SFN  ,0x6A120009, mcycle,336786043
+ 456 ,PC802_0 PFI 0 PRINTF: msg=,0x032368A0, dir_q,0x12,GET  , type= ,2, size0=0, SLot_SFN  ,0xA9130009, mcycle,337258161
+ 457 ,PC802_0 PFI 0 PRINTF: msg=,0x032368A0, dir_q,0x12,FREE , type= ,2, size0=0, SLot_SFN  ,0xA9130009, mcycle,337266115
+ 458 ,PC802_0 PFI 0 PRINTF: msg=,0x032C3220, dir_q,0x02,ALLOC, type= ,2, size0=0, SLot_SFN  ,0x6B130009, mcycle,337272709
+ 459 ,PC802_0 PFI 0 PRINTF: msg=,0x032C3220, dir_q,0x02,PUT  , type= ,1, size0=0, SLot_SFN  ,0x6B130009, mcycle,337289757
