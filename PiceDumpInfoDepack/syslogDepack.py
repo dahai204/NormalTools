@@ -20,7 +20,6 @@ def getfileLine(fileName):
 
     return count
 
-
 def replace(str):
 
     pos = str.find("PC802_0 PFI ",1)
